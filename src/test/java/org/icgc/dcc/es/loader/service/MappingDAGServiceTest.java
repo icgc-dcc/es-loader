@@ -4,16 +4,14 @@ import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import static org.assertj.core.api.Assertions.assertThat;
 import org.icgc.dcc.es.loader.model.MappingDAG.TypeMapping;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
 
-@Ignore
 @Slf4j
 public class MappingDAGServiceTest {
 
-  private final String path = "";
+  private final String path = "src/test/resources/fixtures/mappings";
 
   @Test
   public void testDAG() {
