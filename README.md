@@ -1,5 +1,7 @@
 # Elasticsearch Loader 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/abfd287de36b46aeae5b8aa9c9dbf0e8)](https://www.codacy.com/app/icgc-dcc/es-loader?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=icgc-dcc/es-loader&amp;utm_campaign=Badge_Grade)
+
 Facilitates the creation of Elasticsearch indexes, the loading of type mappings, and indexing of data. 
 
 The loader will parse the mappings files to construct a DAG representation of parent-child relationships to ensure the

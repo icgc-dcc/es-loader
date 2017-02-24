@@ -1,0 +1,27 @@
+target_schema:
+  properties:
+    ssm:
+      type: object
+      source: ssm_maf.ssm
+      properties:
+        transcript_affected:
+          type: array
+          source: ssm_maf.transcript_affected
+          properties:
+            consequence:
+              type: object
+              source: ssm_maf.consequence
+            gene:
+              type: object
+              source: gene.gene
+        occurrence:
+          type: array
+          source: ssm_maf.occurrence
+          properties:
+            case:
+              type: object
+              source: case.case
+              properties:
+                observation:
+                  type: array
+                  source: ssm_maf.observation
