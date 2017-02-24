@@ -67,6 +67,9 @@ public final class InputDirs {
   }
 
   private static String removePrefix(String archiveName, String filePrefix) {
+    if (isNullOrEmpty(filePrefix)) {
+      return archiveName;
+    }
     return archiveName.replaceFirst(filePrefix, "");
   }
 
