@@ -45,6 +45,7 @@ public class Indexer {
   @NonNull
   private final String esUri;
   private final String indexNamePrefix;
+  private final String filePrefix;
   @NonNull
   private final File inputDir;
   @NonNull
@@ -67,7 +68,7 @@ public class Indexer {
     }
 
     // Read from an archive
-    for (val archiveFileName : docSource.getArchiveFileNames(indexNamePrefix)) {
+    for (val archiveFileName : docSource.getArchiveFileNames(filePrefix)) {
       @Cleanup
       val indexDocumentsIterator = docSource.getTarArchiveIndexDocumentsIterator(archiveFileName);
       val indexName = TarArchiveNames.getIndexName(archiveFileName);
@@ -80,7 +81,7 @@ public class Indexer {
     log.info("Initializing indices...");
     val client = createClient(esUri);
     val indexService = new IndexService(client, mappingDAG, settings);
-    indexService.initIndexFromArchiveNames(inputDir, indexNamePrefix);
+    indexService.initIndexFromArchiveNames(inputDir, indexNamePrefix, filePrefix);
     client.close();
     log.info("Finished indices initialization.");
   }

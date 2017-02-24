@@ -45,29 +45,29 @@ public class IndexService {
   private final Map<String, JsonNode> settings;
 
 
-  public void initIndexFromArchiveNames(@NonNull File inputDir, String indexNamePrefix) {
-    val indexNames = InputDirs.getIndexNamesFromArchiveFiles(inputDir, indexNamePrefix);
+  public void initIndexFromArchiveNames(@NonNull File inputDir, String indexNamePrefix, String filePrefix) {
+    val indexNames = InputDirs.getIndexNamesFromArchiveFiles(inputDir, filePrefix);
     log.info("Index names: {}", indexNames);
 
     for (val indexName : indexNames) {
-      createIndexAndMappings(indexName);
+      createIndexAndMappings(indexName, indexNamePrefix);
     }
   }
 
-  private void createIndexAndMappings(String indexName) {
+  private void createIndexAndMappings(String indexName, String indexNamePrefix) {
     val setting = settings.get(indexName);
 
     val indicesClient = client.admin().indices();
-    log.info("Creating index '{}'", indexName);
-    createIndex(indicesClient, indexName, setting.toString());
-    log.info("Created index '{}'", indexName);
+    log.info("Creating index '{}'", indexNamePrefix + indexName);
+    createIndex(indicesClient, indexNamePrefix + indexName, setting.toString());
+    log.info("Created index '{}'", indexNamePrefix + indexName);
 
     for (val rootMapping : mappingDAG.getRoots().values()) {
       if (rootMapping.getIndexName().equals(indexName)) {
         rootMapping.applyRecursive((TypeMapping m) -> {
           String indexTypeName = m.getTypeName();
           String indexTypeMapping = m.getJson().toString();
-          createMapping(indicesClient, indexName, indexTypeName, indexTypeMapping);
+          createMapping(indicesClient, indexNamePrefix + indexName, indexTypeName, indexTypeMapping);
         });
       }
     }

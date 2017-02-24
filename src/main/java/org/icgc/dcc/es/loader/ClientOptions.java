@@ -33,8 +33,11 @@ public class ClientOptions {
   @Parameter(names = { "--config-dir" }, required = true, description = "Config directory which contains mappings and settings.")
   public String configDir;
 
-  @Parameter(names = { "--index-name-prefix" }, description = "When scaning through contents of the input directory, process only files that start with the prefix")
+  @Parameter(names = { "--index-name-prefix" }, description = "Create index with the following prefix")
   public String indexNamePrefix;
+
+  @Parameter(names = { "--file-prefix" }, description = "When scanning through contents of the input directory, process only files that start with the prefix")
+  public String filePrefix;
 
   @Parameter(names = { "--concurrency" }, description = "How many threads to use for index loading.")
   public int concurrency = 0;

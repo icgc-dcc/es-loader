@@ -34,10 +34,10 @@ public final class InputDirs {
 
   private static final String TAR_GZ_SUFFIX = ".*\\.tar\\.gz";
 
-  public static Iterable<String> getIndexNames(File inputDir, String indexNamePrefix) {
-    File[] files = isNullOrEmpty(indexNamePrefix) ?
+  public static Iterable<String> getIndexNames(File inputDir, String filePrefix) {
+    File[] files = isNullOrEmpty(filePrefix) ?
         inputDir.listFiles() :
-        inputDir.listFiles(pathname -> pathname.getName().startsWith(indexNamePrefix));
+        inputDir.listFiles(pathname -> pathname.getName().startsWith(filePrefix));
 
     return Arrays.stream(files)
         .filter(File::isDirectory)
@@ -45,8 +45,8 @@ public final class InputDirs {
         .collect(toList());
   }
 
-  public static Iterable<String> getArchiveFileNames(File inputDir, String indexNamePrefix) {
-    File[] files = getArchiveFiles(inputDir, indexNamePrefix);
+  public static Iterable<String> getArchiveFileNames(File inputDir, String filePrefix) {
+    File[] files = getArchiveFiles(inputDir, filePrefix);
 
     return Arrays.stream(files)
         .filter(File::isFile)
@@ -54,15 +54,20 @@ public final class InputDirs {
         .collect(toList());
   }
 
-  public static Iterable<String> getIndexNamesFromArchiveFiles(File inputDir, String indexNamePrefix) {
-    File[] files = getArchiveFiles(inputDir, indexNamePrefix);
-    log.info("Resolved archive files from input dir '{}' and prefix '{}': {}", inputDir, indexNamePrefix, files);
+  public static Iterable<String> getIndexNamesFromArchiveFiles(File inputDir, String filePrefix) {
+    File[] files = getArchiveFiles(inputDir, filePrefix);
+    log.info("Resolved archive files from input dir '{}' and prefix '{}': {}", inputDir, filePrefix, files);
 
     return Arrays.stream(files)
         .filter(File::isFile)
         .map(File::getName)
         .map(InputDirs::removeArchiveExtention)
+        .map(s -> removePrefix(s, filePrefix))
         .collect(toList());
+  }
+
+  private static String removePrefix(String archiveName, String filePrefix) {
+    return archiveName.replaceFirst(filePrefix, "");
   }
 
   private static String removeArchiveExtention(String archiveName) {
@@ -71,8 +76,8 @@ public final class InputDirs {
     return archiveName.substring(0, extentionStart);
   }
 
-  private static File[] getArchiveFiles(File inputDir, String indexNamePrefix) {
-    val nameRegex = isNullOrEmpty(indexNamePrefix) ? TAR_GZ_SUFFIX : indexNamePrefix + TAR_GZ_SUFFIX;
+  private static File[] getArchiveFiles(File inputDir, String filePrefix) {
+    val nameRegex = isNullOrEmpty(filePrefix) ? TAR_GZ_SUFFIX : filePrefix + TAR_GZ_SUFFIX;
 
     return inputDir.listFiles(pathname -> pathname.getName().matches(nameRegex));
   }

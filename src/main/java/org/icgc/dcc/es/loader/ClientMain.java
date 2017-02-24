@@ -42,7 +42,7 @@ public class ClientMain {
       checkState(inputDirectory.isDirectory() && inputDirectory.canRead(), "Failed to read from %s", inputDirectory);
       checkState(configDirectory.isDirectory() && configDirectory.canRead(), "Failed to read from %s", configDirectory);
 
-      val indexer = new Indexer(esUri, options.indexNamePrefix, inputDirectory, configDirectory, options.concurrency,
+      val indexer = new Indexer(esUri, options.indexNamePrefix, options.filePrefix, inputDirectory, configDirectory, options.concurrency,
           options.skipIndexInit);
       indexer.indexDocuments();
     } catch (ParameterException e) {
