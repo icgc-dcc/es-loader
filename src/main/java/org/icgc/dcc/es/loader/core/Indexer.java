@@ -72,7 +72,7 @@ public class Indexer {
       @Cleanup
       val indexDocumentsIterator = docSource.getTarArchiveIndexDocumentsIterator(archiveFileName);
       val indexName = TarArchiveNames.getIndexName(archiveFileName);
-      loadIndexDocuments(indexDocumentsIterator, indexName);
+      loadIndexDocuments(indexDocumentsIterator, indexNamePrefix + indexName);
     }
 
   }
