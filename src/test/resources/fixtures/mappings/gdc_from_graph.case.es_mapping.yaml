@@ -1,0 +1,3606 @@
+dynamic: strict
+_meta:
+  descriptions:
+    cases.exposures.weight: The weight of the patient measured in kilograms.
+    cases.samples.portions.annotations.updated_datetime: A combination of date and
+      time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.project.released: To release a project is to tell the GDC to include
+      all submittedentities in the next GDC index.
+    cases.samples.aliquots.updated_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.family_histories.relative_with_cancer_history: Indicator to signify whether
+      or not an individual's biological relative has been diagnosed with another type
+      of cancer.
+    annotations.sample.current_weight: Numeric value that represents the current weight
+      of the sample, measured  in milligrams.
+    annotations.analyte.analyte_quantity: The quantity in micrograms (ug) of the analyte(s)
+      derived from the analyte(s) shipped for sequencing and characterization.
+    cases.diagnoses.morphology: The third edition of the International Classification
+      of Diseases for Oncology, published in 2000 used principally in tumor and cancer
+      registries for coding the site (topography) and the histology (morphology) of
+      neoplasms. The study of the structure of the cells and their arrangement to
+      constitute tissues and, finally, the association among these to form organs.
+      In pathology, the microscopic process of identifying normal and abnormal morphologic
+      characteristics in tissues, by employing various cytochemical and immunocytochemical
+      stains. A system of numbered categories for representation of data.
+    cases.annotations.submitter_id: 
+    cases.annotations.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.annotations.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.shortest_dimension: Numeric value that represents the shortest dimension
+      of the sample, measured in millimeters.
+    annotations.portion.weight: Numeric value that represents the sample portion weight,
+      measured in milligrams.
+    annotations.portion.portion_number: Numeric value that represents the sequential
+      number assigned to a portion of the sample.
+    cases.samples.portions.slides.annotations.created_datetime: A combination of date
+      and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.annotations.legacy_created_datetime: A combination of date and time
+      of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.sample.days_to_collection: Time interval from the date of biospecimen
+      collection to the date of initial pathologic diagnosis, represented as a calculated
+      number of days.
+    cases.samples.portions.analytes.aliquots.annotations.status: Status of the annotation.
+    annotations.portion.created_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.annotations.notes: Open entry for any further description or characterization
+      of the data.
+    files.file.md5sum: The MD5 hash of this file
+    cases.annotations.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.analyte.normal_tumor_genotype_snp_match: Text term that represents
+      whether or not the genotype of the normal tumor matches or if the data is not
+      available.
+    cases.diagnoses.ann_arbor_pathologic_stage: The classification of the pathologically
+      confirmed anatomic disease extent of lymphoma (Hodgkin's and Non-Hodgkins) based
+      on the Ann Arbor Staging System.
+    cases.samples.portions.analytes.aliquots.project_id: Unique ID for any specific
+      defined piece of work that is undertaken or attempted to meet a single requirement.
+    annotations.sample.freezing_method: Text term that represents the method used
+      for freezing the sample.
+    projects.project.disease_type: Full name for the project
+    annotations.slide.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.sample.method_of_sample_procurement: The method used to procure the
+      sample used to extract analyte(s).
+    annotations.slide.percent_normal_cells: Numeric value to represent the percentage
+      of normal cell content in a malignant tumor sample or specimen.
+    cases.samples.aliquots.created_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.slides.annotations.status: Status of the annotation.
+    cases.samples.portions.slides.created_datetime: A combination of date and time
+      of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.treatments.treatment_type: Text term that describes the kind of
+      treatment administered.
+    cases.samples.annotations.state: The current state of the object.
+    files.archive.error_type: Type of error for the data file object.
+    annotations.aliquot.amount: Weight in grams or volume in mL.
+    annotations.sample.intermediate_dimension: 
+    cases.samples.annotations.status: Status of the annotation.
+    cases.exposures.submitter_id: 
+    cases.diagnoses.treatments.updated_datetime: A combination of date and time of
+      day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.archive.file_name: The name (or part of a name) of a file (of any type).
+    cases.samples.portions.annotations.state: The current state of the object.
+    cases.samples.portions.analytes.concentration: Numeric value that represents the
+      concentration of an analyte or aliquot extracted from the sample or sample portion,
+      measured in milligrams per milliliter.
+    cases.samples.portions.center.namespace: Domain name of the center (e.g. borad.mit.edu).
+    cases.diagnoses.primary_diagnosis: Text term for the structural pattern of cancer
+      cells used to define a microscopic diagnosis.
+    cases.case.updated_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.aliquots.aliquot_volume: The volume in microliters
+      (ml) of the aliquot(s) derived from the analyte(s) shipped for sequencing and
+      characterization.
+    files.metadata_files.file_name: The file (object) name
+    annotations.aliquot.created_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.aliquot.analyte_type_id: A single letter code used to identify a type
+      of molecular analyte.
+    cases.diagnoses.treatments.treatment_anatomic_site: The anatomic site or field
+      targeted by a treatment regimen or single agent therapy.
+    cases.samples.tumor_code: Diagnostic tumor code of the tissue sample source.
+    cases.samples.state: The current state of the object.
+    cases.samples.preservation_method: Text term that represents the method used to
+      preserve the sample.
+    cases.samples.portions.project_id: Unique ID for any specific defined piece of
+      work that is undertaken or attempted to meet a single requirement.
+    cases.diagnoses.tissue_or_organ_of_origin: Text term that describes the anatomic
+      site of the tumor or disease.
+    cases.annotations.legacy_updated_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.hpv_status: The findings of the oncogenic HPV.
+    cases.exposures.project_id: Unique ID for any specific defined piece of work that
+      is undertaken or attempted to meet a single requirement.
+    annotations.sample.shortest_dimension: Numeric value that represents the shortest
+      dimension of the sample, measured in millimeters.
+    cases.samples.aliquots.aliquot_volume: The volume in microliters (ml) of the aliquot(s)
+      derived from the analyte(s) shipped for sequencing and characterization.
+    cases.family_histories.updated_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.slides.section_location: Tissue source of the slide.
+    annotations.analyte.analyte_type: Text term that represents the kind of molecular
+      specimen analyte.
+    cases.case.state: The current state of the object.
+    cases.samples.portions.annotations.status: Status of the annotation.
+    cases.samples.aliquots.analyte_type: Text term that represents the kind of molecular
+      specimen analyte.
+    cases.case.disease_type: Full name for the project.
+    files.platform.name: name of this platform
+    cases.diagnoses.age_at_diagnosis: Age at the time of diagnosis expressed in number
+      of days since birth.
+    cases.samples.portions.analytes.aliquots.annotations.classification: Top level
+      classification of the annotation.
+    files.archive.updated_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.aliquots.annotations.creator: Name of the person
+      or entity responsible for the creation of the annotation.
+    cases.diagnoses.days_to_last_known_disease_status: Time interval from the date
+      of last follow up to the date of initial pathologic diagnosis, represented as
+      a calculated number of days.
+    projects.project.releasable: A project can only be released by the user when `releasable`
+      is true.
+    cases.samples.portions.annotations.category: Top level characterization of the
+      annotation.
+    files.archive.submitter_id: The file ID assigned by the submitter.
+    files.annotations.creator: Name of the person or entity responsible for the creation
+      of the annotation.
+    cases.demographic.state: The current state of the object.
+    annotations.sample.state: The current state of the object.
+    cases.family_histories.submitter_id: 
+    files.metadata_files.md5sum: The MD5 hash of this file
+    annotations.annotation.md5sum: 
+    annotations.aliquot.aliquot_volume: The volume in microliters (ml) of the aliquot(s)
+      derived from the analyte(s) shipped for sequencing and characterization.
+    files.file.created_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.exposures.tobacco_smoking_status: Category describing current smoking status
+      and smoking history as self-reported by a patient.
+    cases.exposures.alcohol_intensity: Category to describe the patient's current
+      level of alcohol use as self-reported by the patient.
+    cases.samples.portions.analytes.annotations.category: Top level characterization
+      of the annotation.
+    annotations.project.name: Display name for the project
+    cases.samples.portions.slides.annotations.legacy_created_datetime: A combination
+      of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.portion.is_ffpe: Indicator to signify whether or not the tissue sample
+      was fixed in formalin and embedded in paraffin (FFPE).
+    cases.diagnoses.tumor_stage: The extent of a cancer in the body. Staging is usually
+      based on the size of the tumor, whether lymph nodes contain cancer, and whether
+      the cancer has spread from the original site to other parts of the body. The
+      accepted values for tumor_stage depend on the tumor site, type, and accepted
+      staging system. These items should accompany the tumor_stage value as associated
+      metadata.
+    cases.files.file_state: The current state of the data file object.
+    cases.samples.time_between_clamping_and_freezing: Numeric representation of the
+      elapsed time between the surgical clamping of blood supply and freezing of the
+      sample, measured in minutes.
+    cases.samples.oct_embedded: Indicator of whether or not the sample was embedded
+      in Optimal Cutting Temperature (OCT) compound.
+    annotations.sample.preservation_method: Text term that represents the method used
+      to preserve the sample.
+    files.center.namespace: Domain name of the center (e.g. borad.mit.edu).
+    files.metadata_files.file_size: The size file (object) in bytes
+    cases.samples.tissue_type: Text term that represents a description of the kind
+      of tissue collected with respect to disease status or proximity to tumor tissue.
+    annotations.portion.creation_datetime: The datetime of portion creation encoded
+      as seconds from epoch.
+    cases.diagnoses.treatments.treatment_outcome: Text term that describes the patient¿s
+      final outcome after the treatment was administered.
+    cases.samples.portions.analytes.aliquots.analyte_type: Text term that represents
+      the kind of molecular specimen analyte.
+    cases.diagnoses.treatments.days_to_treatment_start: Time interval from the date
+      of the initial pathologic diagnosis to the start of treatment, represented as
+      a calculated number of days.
+    files.annotations.status: Status of the annotation.
+    cases.samples.annotations.notes: Open entry for any further description or characterization
+      of the data.
+    cases.samples.portions.updated_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.slide.section_location: Tissue source of the slide.
+    cases.demographic.submitter_id: 
+    annotations.file.file_name: The file (object) name
+    annotations.annotation.error_type: 
+    annotations.annotation.state_comment: 
+    cases.files.project_id: 
+    cases.samples.portions.analytes.aliquots.updated_datetime: A combination of date
+      and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.progression_or_recurrence: Yes/No/Unknown indicator to identify
+      whether a patient has had a new tumor event after initial treatment.
+    cases.diagnoses.prior_malignancy: Text term to describe the patient's history
+      of prior cancer diagnosis and the spatial location of any previous cancer occurrence.
+    cases.diagnoses.project_id: Unique ID for any specific defined piece of work that
+      is undertaken or attempted to meet a single requirement.
+    annotations.sample.pathology_report_uuid: UUID of the related pathology report.
+    cases.exposures.height: The height of the patient in centimeters.
+    annotations.slide.percent_stromal_cells: Numeric value to represent the percentage
+      of reactive cells that are present in a malignant tumor sample or specimen but
+      are not malignant such as fibroblasts, vascular structures, etc.
+    annotations.analyte.concentration: Numeric value that represents the concentration
+      of an analyte or aliquot extracted from the sample or sample portion, measured
+      in milligrams per milliliter.
+    files.file.project_id: 
+    annotations.annotation.created_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.file.file_name: The file (object) name
+    cases.samples.annotations.submitter_id: 
+    cases.demographic.race: An arbitrary classification of a taxonomic group that
+      is a division of a species. It usually arises as a consequence of geographical
+      isolation within a species and is characterized by shared heredity, physical
+      attributes and behavior, and in the case of humans, by common history, nationality,
+      or geographic distribution. The provided values are based on the categories
+      defined by the U.S. Office of Management and Business and used by the U.S. Census
+      Bureau.
+    cases.samples.time_between_excision_and_freezing: Numeric representation of the
+      elapsed time between the excision and freezing of the sample, measured in minutes.
+    cases.project.intended_release_date: Tracks a Project's intended release date.
+    files.metadata_files.project_id: 
+    files.cases.project_id: Unique ID for any specific defined piece of work that
+      is undertaken or attempted to meet a single requirement.
+    annotations.annotation.submitter_id: 
+    cases.samples.aliquots.state: The current state of the object.
+    cases.diagnoses.ann_arbor_clinical_stage: The classification of the clinically
+      confirmed anatomic disease extent of lymphoma (Hodgkin's and Non-Hodgkins) based
+      on the Ann Arbor Staging System.
+    annotations.aliquot.source_center: Name of the center that provided the item.
+    cases.samples.portions.slides.percent_necrosis: Numeric value to represent the
+      percentage of cell death in a malignant tumor sample or specimen.
+    files.metadata_files.file_state: The current state of the data file object.
+    cases.family_histories.project_id: Unique ID for any specific defined piece of
+      work that is undertaken or attempted to meet a single requirement.
+    cases.demographic.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.annotations.notes: Open entry for any further
+      description or characterization of the data.
+    cases.annotations.status: Status of the annotation.
+    cases.samples.portions.annotations.legacy_updated_datetime: A combination of date
+      and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.annotations.legacy_updated_datetime: A combination
+      of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.submitter_id: The legacy barcode used before prior
+      to the use UUIDs, varies by project. For TCGA this is bcranalytebarcode.
+    cases.samples.portions.analytes.annotations.legacy_created_datetime: A combination
+      of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.demographic.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    annotations.aliquot.updated_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.case.created_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.sample.is_ffpe: Indicator to signify whether or not the tissue sample
+      was fixed in formalin and embedded in paraffin (FFPE).
+    annotations.analyte.spectrophotometer_method: Name of the method used to determine
+      the concentration of purified nucleic acid within a solution.
+    cases.family_histories.relationship_gender: 'Text designations that identify gender.
+      Gender is described as the assemblage of properties that distinguish people
+      on the basis of their societal roles. [Explanatory Comment 1: Identification
+      of gender is based upon self-report and may come from a form, questionnaire,
+      interview, etc.]'
+    annotations.file.md5sum: The MD5 hash of this file
+    annotations.sample.created_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.sample.tumor_code_id: BCR-defined id code for the tumor sample.
+    cases.diagnoses.days_to_hiv_diagnosis: Time interval from the date of the initial
+      pathologic diagnosis to the date of human immunodeficiency diagnosis, represented
+      as a calculated number of days.
+    annotations.slide.state: The current state of the object.
+    annotations.project.disease_type: Full name for the project
+    cases.project.program.dbgap_accession_number: The dbgap accession number provided
+      for the program.
+    annotations.analyte.analyte_type_id: A single letter code used to identify a type
+      of molecular analyte.
+    annotations.sample.diagnosis_pathologically_confirmed: 
+    annotations.slide.percent_lymphocyte_infiltration: Numeric value to represent
+      the percentage of infiltration by lymphocytes in a solid tissue normal sample
+      or specimen.
+    projects.project.state: The possible states a project can be in.  All but `open`
+      areequivalent to some type of locked state.
+    cases.samples.portions.analytes.annotations.status: Status of the annotation.
+    cases.samples.annotations.created_datetime: A combination of date and time of
+      day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.project.primary_site: Primary site for the project
+    annotations.annotation.file_state: 
+    files.tags.name: name of this tag
+    annotations.slide.percent_tumor_cells: Numeric value that represents the percentage
+      of infiltration by granulocytes in a sample.
+    cases.samples.initial_weight: Numeric value that represents the initial weight
+      of the sample, measured in milligrams.
+    cases.samples.portions.analytes.aliquots.center.name: Name of the center (e.g.
+      Broad Institute of MIT and Harvard).
+    cases.samples.portions.analytes.well_number: Numeric value that represents the
+      the well location within a plate for the analyte or aliquot from the sample.
+    cases.samples.portions.analytes.aliquots.annotations.project_id: Unique ID for
+      any specific defined piece of work that is undertaken or attempted to meet a
+      single requirement.
+    cases.samples.submitter_id: The legacy barcode used before prior to the use UUIDs,
+      varies by project. For TCGA this is bcrsamplebarcode.
+    annotations.file.state_comment: Optional comment about why the file is in the
+      current state, mainly for invalid state.
+    cases.diagnoses.hpv_positive_type: Text classification to represent the strain
+      or type of human papillomavirus identified in an individual.
+    annotations.analyte.ribosomal_rna_28s_16s_ratio: The 28S/18S ribosomal RNA band
+      ratio used to assess the quality of total RNA.
+    cases.samples.portions.analytes.aliquots.center.namespace: Domain name of the
+      center (e.g. borad.mit.edu).
+    annotations.annotation.file_name: 
+    cases.diagnoses.state: The current state of the object.
+    annotations.analyte.well_number: Numeric value that represents the the well location
+      within a plate for the analyte or aliquot from the sample.
+    annotations.sample.tumor_descriptor: Text that describes the kind of disease present
+      in the tumor specimen as related to a specific timepoint.
+    cases.samples.longest_dimension: 
+    annotations.portion.updated_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.aliquots.annotations.notes: Open entry for any
+      further description or characterization of the data.
+    cases.samples.annotations.category: Top level characterization of the annotation.
+    cases.diagnoses.ldh_level_at_diagnosis: The 2 decimal place numeric laboratory
+      value measured, assigned or computed related to the assessment of lactate dehydrogenase
+      in a specimen.
+    cases.samples.portions.analytes.a260_a280_ratio: Numeric value that represents
+      the sample ratio of nucleic acid absorbance at 260 nm and 280 nm, used to determine
+      a measure of DNA purity.
+    cases.samples.portions.analytes.aliquots.annotations.updated_datetime: A combination
+      of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.created_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.file.file_size: The size file (object) in bytes
+    cases.diagnoses.treatments.days_to_treatment_end: Time interval from the date
+      of the initial pathologic diagnosis to the date of treatment end, represented
+      as a calculated number of days.
+    cases.samples.portions.annotations.legacy_created_datetime: A combination of date
+      and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.aliquots.annotations.submitter_id: 
+    annotations.sample.tissue_type: Text term that represents a description of the
+      kind of tissue collected with respect to disease status or proximity to tumor
+      tissue.
+    cases.diagnoses.method_of_diagnosis: The method used to initially the patient's
+      diagnosis.
+    cases.diagnoses.lymph_nodes_positive: The number of lymph nodes involved with
+      disease as determined by pathologic examination.
+    annotations.sample.longest_dimension: 
+    cases.diagnoses.submitter_id: 
+    cases.samples.biospecimen_anatomic_site: Text term that represents the name of
+      the primary disease site of the submitted tumor sample.
+    cases.samples.portions.slides.annotations.notes: Open entry for any further description
+      or characterization of the data.
+    cases.demographic.year_of_death: Numeric value to represent the year of the death
+      of an individual.
+    files.experimental_strategy.name: name of this record
+    files.data_type.name: name of this data subtype
+    cases.annotations.legacy_created_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.file.state: The current state of the object.
+    cases.samples.tumor_descriptor: Text that describes the kind of disease present
+      in the tumor specimen as related to a specific timepoint.
+    cases.exposures.tobacco_smoking_quit_year: The year in which the participant quit
+      smoking.
+    cases.demographic.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.files.md5sum: The MD5 hash of this file
+    annotations.project.program.name: Full name/title of the program.
+    cases.samples.portions.slides.percent_lymphocyte_infiltration: Numeric value to
+      represent the percentage of infiltration by lymphocytes in a solid tissue normal
+      sample or specimen.
+    cases.samples.portions.slides.annotations.submitter_id: 
+    files.data_format.name: name of this data format
+    cases.project.program.name: Full name/title of the program.
+    annotations.slide.submitter_id: The legacy barcode used before prior to the use
+      UUIDs, varies by project. For TCGA, this is bcrslidebarcode.
+    cases.samples.portions.center.name: Name of the center (e.g. Broad Institute of
+      MIT and Harvard).
+    cases.annotations.notes: Open entry for any further description or characterization
+      of the data.
+    annotations.sample.time_between_excision_and_freezing: Numeric representation
+      of the elapsed time between the excision and freezing of the sample, measured
+      in minutes.
+    projects.program.dbgap_accession_number: The dbgap accession number provided for
+      the program.
+    cases.case.primary_site: Primary site for the project.
+    cases.diagnoses.ajcc_clinical_n: Extent of the regional lymph node involvement
+      for the cancer based on evidence obtained from clinical assessment parameters
+      determined prior to treatment.
+    cases.samples.portions.analytes.aliquots.amount: Weight in grams or volume in
+      mL.
+    cases.diagnoses.ajcc_clinical_t: Extent of the primary cancer based on evidence
+      obtained from clinical assessment parameters determined prior to treatment.
+    annotations.sample.project_id: 
+    cases.diagnoses.hiv_positive: Text term to signify whether a physician has diagnosed
+      HIV infection in a patient.
+    cases.samples.portions.slides.percent_inflam_infiltration: Numeric value to represent
+      local response to cellular injury, marked by capillary dilatation, edema and
+      leukocyte infiltration; clinically, inflammation is manifest by reddness, heat,
+      pain, swelling and loss of function, with the need to heal damaged tissue.
+    cases.samples.portions.slides.percent_eosinophil_infiltration: Numeric value to
+      represent the percentage of infiltration by eosinophils in a tumor sample or
+      specimen.
+    cases.diagnoses.ajcc_clinical_m: Extent of the distant metastasis for the cancer
+      based on evidence obtained from clinical assessment parameters determined prior
+      to treatment.
+    annotations.sample.updated_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.exposures.pack_years_smoked: Numeric computed value to represent lifetime
+      tobacco exposure defined as number of cigarettes smoked per day x number of
+      years smoked divided by 20.
+    cases.diagnoses.laterality: For tumors in paired organs, designates the side on
+      which the cancer originates.
+    files.annotations.submitter_id: 
+    cases.samples.portions.annotations.creator: Name of the person or entity responsible
+      for the creation of the annotation.
+    cases.samples.portions.slides.number_proliferating_cells: Numeric value that represents
+      the count of proliferating cells determined during pathologic review of the
+      sample slide(s).
+    files.center.name: Name of the center (e.g. Broad Institute of MIT and Harvard).
+    cases.samples.portions.analytes.aliquots.analyte_type_id: A single letter code
+      used to identify a type of molecular analyte.
+    cases.tissue_source_site.name: Name of the source site.
+    cases.project.dbgap_accession_number: The dbgap accession number for the project.
+    cases.annotations.classification: Top level classification of the annotation.
+    annotations.case.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    cases.diagnoses.treatments.created_datetime: A combination of date and time of
+      day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.data_type.data_category.name: name of this data type
+    files.cases.disease_type: Full name for the project.
+    cases.samples.portions.analytes.annotations.creator: Name of the person or entity
+      responsible for the creation of the annotation.
+    cases.annotations.category: Top level characterization of the annotation.
+    cases.diagnoses.tumor_grade: Numeric value to express the degree of abnormality
+      of cancer cells, a measure of differentiation and aggressiveness.
+    annotations.project.primary_site: Primary site for the project
+    files.metadata_files.created_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.exposures.cigarettes_per_day: The average number of cigarettes smoked per
+      day.
+    cases.samples.portions.slides.state: The current state of the object.
+    cases.samples.portions.slides.annotations.legacy_updated_datetime: A combination
+      of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.classification_of_tumor: Text that describes the kind of disease
+      present in the tumor specimen as related to a specific timepoint.
+    cases.diagnoses.days_to_last_follow_up: Time interval from the date of last follow
+      up to the date of initial pathologic diagnosis, represented as a calculated
+      number of days.
+    annotations.case.state: The current state of the object.
+    annotations.portion.submitter_id: The legacy barcode used before prior to the
+      use UUIDs, varies by project. For TCGA this is bcrportionbarcode.
+    cases.samples.diagnosis_pathologically_confirmed: 
+    annotations.slide.percent_monocyte_infiltration: Numeric value to represent the
+      percentage of monocyte infiltration in a sample or specimen.
+    cases.diagnoses.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.file.project_id: 
+    cases.diagnoses.ann_arbor_extranodal_involvement: Indicator that identifies whether
+      a patient with malignant lymphoma has lymphomatous involvement of an extranodal
+      site.
+    cases.annotations.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    cases.samples.portions.slides.annotations.category: Top level characterization
+      of the annotation.
+    cases.samples.portions.slides.percent_stromal_cells: Numeric value to represent
+      the percentage of reactive cells that are present in a malignant tumor sample
+      or specimen but are not malignant such as fibroblasts, vascular structures,
+      etc.
+    annotations.slide.percent_neutrophil_infiltration: Numeric value to represent
+      the percentage of infiltration by neutrophils in a tumor sample or specimen.
+    files.file.state: The current state of the object.
+    annotations.annotation.state: The current state of the object.
+    annotations.aliquot.submitter_id: The legacy barcode used before prior to the
+      use UUIDs. For TCGA this is bcraliquotbarcode.
+    files.center.code: Numeric code for the center.
+    cases.samples.portions.annotations.notes: Open entry for any further description
+      or characterization of the data.
+    cases.samples.aliquots.concentration: Numeric value that represents the concentration
+      of an analyte or aliquot extracted from the sample or sample portion, measured
+      in milligrams per milliliter.
+    files.metadata_files.submitter_id: The file id assigned by the submitter
+    cases.samples.portions.analytes.aliquots.aliquot_quantity: The quantity in micrograms
+      (ug) of the aliquot(s) derived from the analyte(s) shipped for sequencing and
+      characterization.
+    cases.samples.portions.analytes.analyte_quantity: The quantity in micrograms (ug)
+      of the analyte(s) derived from the analyte(s) shipped for sequencing and characterization.
+    cases.samples.days_to_collection: Time interval from the date of biospecimen collection
+      to the date of initial pathologic diagnosis, represented as a calculated number
+      of days.
+    cases.diagnoses.days_to_recurrence: Time interval from the date of new tumor event
+      including progression, recurrence and new primary malignancies to the date of
+      initial pathologic diagnosis, represented as a calculated number of days.
+    cases.diagnoses.cause_of_death: Text term to identify the cause of death for a
+      patient.
+    annotations.slide.percent_inflam_infiltration: Numeric value to represent local
+      response to cellular injury, marked by capillary dilatation, edema and leukocyte
+      infiltration; clinically, inflammation is manifest by reddness, heat, pain,
+      swelling and loss of function, with the need to heal damaged tissue.
+    annotations.project.releasable: A project can only be released by the user when
+      `releasable` is true.
+    annotations.portion.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    cases.samples.portions.analytes.aliquots.annotations.legacy_updated_datetime: A
+      combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.sample.oct_embedded: Indicator of whether or not the sample was embedded
+      in Optimal Cutting Temperature (OCT) compound.
+    projects.program.name: Full name/title of the program.
+    cases.samples.portions.analytes.aliquots.state: The current state of the object.
+    projects.project.released: To release a project is to tell the GDC to include
+      all submittedentities in the next GDC index.
+    annotations.sample.sample_type_id: The accompanying sample type id for the sample
+      type.
+    cases.exposures.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.new_event_anatomic_site: Text term to specify the anatomic location
+      of the return of tumor after treatment.
+    cases.samples.portions.creation_datetime: The datetime of portion creation encoded
+      as seconds from epoch.
+    cases.diagnoses.vital_status: The survival state of the person registered on the
+      protocol.
+    cases.diagnoses.treatments.project_id: Unique ID for any specific defined piece
+      of work that is undertaken or attempted to meet a single requirement.
+    cases.case.submitter_id: 
+    cases.samples.portions.analytes.aliquots.center.code: Numeric code for the center.
+    cases.tissue_source_site.bcr_id: TCGA-provided BCR id.
+    files.center.center_type: Type classification of the center (e.g. CGCC).
+    files.archive.data_category: Broad categorization of the contents of the data
+      file.
+    cases.samples.portions.analytes.normal_tumor_genotype_snp_match: Text term that
+      represents whether or not the genotype of the normal tumor matches or if the
+      data is not available.
+    cases.diagnoses.figo_stage: The extent of a cervical or endometrial cancer within
+      the body, especially whether the disease has spread from the original site to
+      other parts of the body, as described by the International Federation of Gynecology
+      and Obstetrics (FIGO) stages.
+    annotations.slide.percent_eosinophil_infiltration: Numeric value to represent
+      the percentage of infiltration by eosinophils in a tumor sample or specimen.
+    annotations.slide.percent_granulocyte_infiltration: Numeric value to represent
+      the percentage of infiltration by granulocytes in a tumor sample or specimen.
+    cases.samples.aliquots.source_center: Name of the center that provided the item.
+    cases.diagnoses.burkitt_lymphoma_clinical_variant: Burkitt's lymphoma categorization
+      based on clinical features that differ from other forms of the same disease.
+    cases.exposures.bmi: The body mass divided by the square of the body height expressed
+      in units of kg/m^2.
+    cases.project.code: Project code
+    annotations.project.dbgap_accession_number: The dbgap accession number for the
+      project.
+    files.archive.file_state: The current state of the data file object.
+    cases.samples.portions.analytes.project_id: Unique ID for any specific defined
+      piece of work that is undertaken or attempted to meet a single requirement.
+    cases.samples.annotations.project_id: Unique ID for any specific defined piece
+      of work that is undertaken or attempted to meet a single requirement.
+    cases.family_histories.relationship_type: The subgroup that describes the state
+      of connectedness between members of the unit of society organized around kinship
+      ties.
+    cases.exposures.years_smoked: Numeric value (or unknown) to represent the number
+      of years a person has been smoking.
+    files.archive.state_comment: Optional comment about why the file is in the current
+      state, mainly for invalid state.
+    files.archive.project_id: Unique ID for any specific defined piece of work that
+      is undertaken or attempted to meet a single requirement.
+    cases.samples.tumor_code_id: BCR-defined id code for the tumor sample.
+    cases.samples.portions.slides.annotations.updated_datetime: A combination of date
+      and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.family_histories.relationship_age_at_diagnosis: The age (in years) when
+      the patient's relative was first diagnosed.
+    cases.files.error_type: Type of error for the data file object.
+    cases.samples.portions.analytes.annotations.updated_datetime: A combination of
+      date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.is_ffpe: Indicator to signify whether or not the tissue
+      sample was fixed in formalin and embedded in paraffin (FFPE).
+    cases.samples.portions.slides.percent_tumor_nuclei: Numeric value to represent
+      the percentage of tumor nuclei in a malignant neoplasm sample or specimen.
+    cases.diagnoses.perineural_invasion_present: a yes/no indicator to ask if perineural
+      invasion or infiltration of tumor or cancer is present.
+    cases.samples.portions.analytes.aliquots.source_center: Name of the center that
+      provided the item.
+    cases.samples.sample_type_id: The accompanying sample type id for the sample type.
+    cases.family_histories.state: The current state of the object.
+    annotations.file.file_state: The current state of the data file object.
+    cases.project.releasable: A project can only be released by the user when `releasable`
+      is true.
+    annotations.analyte.created_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.project.disease_type: Full name for the project
+    cases.samples.portions.analytes.aliquots.annotations.state: The current state
+      of the object.
+    cases.diagnoses.ann_arbor_b_symptoms: Text term to signify whether lymphoma B-symptoms
+      are present as noted in the patient's medical record.
+    cases.diagnoses.ajcc_pathologic_stage: The extent of a cancer, especially whether
+      the disease has spread from the original site to other parts of the body based
+      on AJCC staging criteria.
+    cases.diagnoses.treatments.state: The current state of the object.
+    cases.samples.portions.analytes.annotations.submitter_id: 
+    cases.project.released: To release a project is to tell the GDC to include all
+      submittedentities in the next GDC index.
+    files.metadata_files.updated_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.annotations.state: The current state of the object.
+    annotations.case.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.metadata_files.error_type: Type of error for the data file object.
+    annotations.file.error_type: Type of error for the data file object.
+    projects.project.primary_site: Primary site for the project
+    cases.samples.aliquots.submitter_id: The legacy barcode used before prior to the
+      use UUIDs. For TCGA this is bcraliquotbarcode.
+    files.cases.state: The current state of the object.
+    cases.samples.portions.analytes.updated_datetime: A combination of date and time
+      of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.analyte_type_id: A single letter code used to
+      identify a type of molecular analyte.
+    annotations.aliquot.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    cases.samples.portions.slides.submitter_id: The legacy barcode used before prior
+      to the use UUIDs, varies by project. For TCGA, this is bcrslidebarcode.
+    cases.samples.aliquots.amount: Weight in grams or volume in mL.
+    cases.samples.portions.slides.annotations.creator: Name of the person or entity
+      responsible for the creation of the annotation.
+    cases.diagnoses.ajcc_clinical_stage: Stage group determined from clinical information
+      on the tumor (T), regional node (N) and metastases (M) and by grouping cases
+      with similar prognosis for cancer.
+    annotations.file.submitter_id: The file id assigned by the submitter
+    cases.samples.aliquots.aliquot_quantity: The quantity in micrograms (ug) of the
+      aliquot(s) derived from the analyte(s) shipped for sequencing and characterization.
+    annotations.slide.percent_necrosis: Numeric value to represent the percentage
+      of cell death in a malignant tumor sample or specimen.
+    annotations.annotation.updated_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.project_id: 
+    cases.files.updated_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.slides.percent_granulocyte_infiltration: Numeric value
+      to represent the percentage of infiltration by granulocytes in a tumor sample
+      or specimen.
+    cases.annotations.state: The current state of the object.
+    annotations.sample.time_between_clamping_and_freezing: Numeric representation
+      of the elapsed time between the surgical clamping of blood supply and freezing
+      of the sample, measured in minutes.
+    cases.demographic.ethnicity: An individual's self-described social and cultural
+      grouping, specifically whether an individual describes themselves as Hispanic
+      or Latino. The provided values are based on the categories defined by the U.S.
+      Office of Management and Business and used by the U.S. Census Bureau.
+    annotations.sample.initial_weight: Numeric value that represents the initial weight
+      of the sample, measured in milligrams.
+    cases.samples.updated_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.annotations.classification: Top level classification of
+      the annotation.
+    cases.diagnoses.site_of_resection_or_biopsy: The third edition of the International
+      Classification of Diseases for Oncology, published in 2000, used principally
+      in tumor and cancer registries for coding the site (topography) and the histology
+      (morphology) of neoplasms. The description of an anatomical region or of a body
+      part. Named locations of, or within, the body. A system of numbered categories
+      for representation of data.
+    cases.exposures.tobacco_smoking_onset_year: The year in which the participant
+      began smoking.
+    cases.samples.portions.analytes.annotations.created_datetime: A combination of
+      date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.ajcc_pathologic_t: Code of pathological T (primary tumor) to define
+      the size or contiguous extension of the primary tumor (T), using staging criteria
+      from the American Joint Committee on Cancer (AJCC).
+    cases.diagnoses.colon_polyps_history: Yes/No indicator to describe if the subject
+      had a previous history of colon polyps as noted in the history/physical or previous
+      endoscopic report (s).
+    annotations.sample.days_to_sample_procurement: The number of days from the date
+      the patient was diagnosed to the date of the procedure that produced the sample.
+    files.file.state_comment: Optional comment about why the file is in the current
+      state, mainly for invalid state.
+    cases.diagnoses.ajcc_pathologic_m: Code to represent the defined absence or presence
+      of distant spread or metastases (M) to locations via vascular channels or lymphatics
+      beyond the regional lymph nodes, using criteria established by the American
+      Joint Committee on Cancer (AJCC).
+    cases.diagnoses.ajcc_pathologic_n: The codes that represent the stage of cancer
+      based on the nodes present (N stage) according to criteria based on multiple
+      editions of the AJCC's Cancer Staging Manual.
+    cases.tissue_source_site.code: TCGA-provided TSS code.
+    cases.samples.portions.annotations.submitter_id: 
+    files.archive.file_size: The size of the data file (object) in bytes.
+    annotations.annotation.file_size: 
+    annotations.sample.submitter_id: The legacy barcode used before prior to the use
+      UUIDs, varies by project. For TCGA this is bcrsamplebarcode.
+    annotations.project.program.dbgap_accession_number: The dbgap accession number
+      provided for the program.
+    cases.samples.portions.analytes.amount: Weight in grams or volume in mL.
+    cases.samples.aliquots.analyte_type_id: A single letter code used to identify
+      a type of molecular analyte.
+    cases.annotations.creator: Name of the person or entity responsible for the creation
+      of the annotation.
+    annotations.slide.number_proliferating_cells: Numeric value that represents the
+      count of proliferating cells determined during pathologic review of the sample
+      slide(s).
+    cases.diagnoses.last_known_disease_status: Text term that describes the last known
+      state or condition of an individual's neoplasm.
+    cases.samples.annotations.legacy_updated_datetime: A combination of date and time
+      of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.cases.primary_site: Primary site for the project.
+    files.annotations.classification: Top level classification of the annotation.
+    cases.samples.sample_type: Text term to describe the source of a biospecimen used
+      for a laboratory test.
+    cases.samples.portions.analytes.aliquots.concentration: Numeric value that represents
+      the concentration of an analyte or aliquot extracted from the sample or sample
+      portion, measured in milligrams per milliliter.
+    cases.files.file_size: The size file (object) in bytes
+    annotations.analyte.amount: Weight in grams or volume in mL.
+    cases.samples.portions.slides.annotations.state: The current state of the object.
+    annotations.sample.tumor_code: Diagnostic tumor code of the tissue sample source.
+    cases.samples.intermediate_dimension: 
+    cases.diagnoses.days_to_new_event: Time interval from the date of new tumor event
+      including progression, recurrence and new primary malignacies to the date of
+      initial pathologic diagnosis, represented as a calculated number of days.
+    cases.project.name: Display name for the project
+    annotations.case.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.tissue_source_site.project: Study name of the project.
+    cases.samples.method_of_sample_procurement: The method used to procure the sample
+      used to extract analyte(s).
+    files.metadata_files.state_comment: Optional comment about why the file is in
+      the current state, mainly for invalid state.
+    cases.samples.portions.analytes.aliquots.annotations.legacy_created_datetime: A
+      combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.center.short_name: Shortened name of the center (e.g. BI).
+    annotations.project.intended_release_date: Tracks a Project's intended release
+      date.
+    cases.files.file_name: The file (object) name
+    cases.samples.portions.analytes.analyte_type: Text term that represents the kind
+      of molecular specimen analyte.
+    annotations.annotation.project_id: Unique ID for any specific defined piece of
+      work that is undertaken or attempted to meet a single requirement.
+    cases.samples.portions.analytes.aliquots.annotations.category: Top level characterization
+      of the annotation.
+    cases.samples.portions.analytes.aliquots.center.short_name: Shortened name of
+      the center (e.g. BI).
+    annotations.sample.composition: Text term that represents the cellular composition
+      of the sample.
+    annotations.analyte.state: The current state of the object.
+    cases.exposures.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.treatments.days_to_treatment: Number of days from date of initial
+      pathologic diagnosis that treatment began.
+    projects.project.code: Project code
+    cases.diagnoses.prior_treatment: A yes/no/unknown/not applicable indicator related
+      to the administration of therapeutic agents received before the body specimen
+      was collected.
+    annotations.aliquot.aliquot_quantity: The quantity in micrograms (ug) of the aliquot(s)
+      derived from the analyte(s) shipped for sequencing and characterization.
+    cases.exposures.alcohol_history: A response to a question that asks whether the
+      participant has consumed at least 12 drinks of any kind of alcoholic beverage
+      in their lifetime.
+    annotations.case.disease_type: Full name for the project.
+    cases.samples.portions.analytes.analyte_volume: The volume in microliters (ml)
+      of the analyte(s) derived from the analyte(s) shipped for sequencing and characterization.
+    files.file.updated_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.annotations.state: The current state of the object.
+    cases.family_histories.relationship_primary_diagnosis: Text term for the structural
+      pattern of cancer cells used to define a microscopic diagnosis.
+    files.archive.data_type: Specific content type of the data file.
+    cases.files.submitter_id: The file id assigned by the submitter
+    annotations.sample.biospecimen_anatomic_site: Text term that represents the name
+      of the primary disease site of the submitted tumor sample.
+    cases.samples.portions.slides.updated_datetime: A combination of date and time
+      of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.file.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.project.code: Project code
+    cases.samples.portions.analytes.aliquots.center.center_type: Type classification
+      of the center (e.g. CGCC).
+    cases.samples.portions.analytes.ribosomal_rna_28s_16s_ratio: The 28S/18S ribosomal
+      RNA band ratio used to assess the quality of total RNA.
+    cases.diagnoses.treatments.submitter_id: 
+    annotations.case.submitter_id: 
+    files.cases.updated_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.annotations.category: Top level characterization of the annotation.
+    cases.samples.portions.analytes.aliquots.submitter_id: The legacy barcode used
+      before prior to the use UUIDs. For TCGA this is bcraliquotbarcode.
+    annotations.project.state: The possible states a project can be in.  All but `open`
+      areequivalent to some type of locked state.
+    cases.samples.is_ffpe: Indicator to signify whether or not the tissue sample was
+      fixed in formalin and embedded in paraffin (FFPE).
+    cases.files.created_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.cases.submitter_id: 
+    cases.samples.annotations.updated_datetime: A combination of date and time of
+      day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.slides.percent_monocyte_infiltration: Numeric value to
+      represent the percentage of monocyte infiltration in a sample or specimen.
+    cases.samples.portions.weight: Numeric value that represents the sample portion
+      weight, measured in milligrams.
+    cases.samples.days_to_sample_procurement: The number of days from the date the
+      patient was diagnosed to the date of the procedure that produced the sample.
+    cases.diagnoses.treatments.treatment_or_therapy: A yes/no/unknown/not applicable
+      indicator related to the administration of therapeutic agents received before
+      the body specimen was collected.
+    cases.exposures.state: The current state of the object.
+    cases.samples.portions.analytes.aliquots.created_datetime: A combination of date
+      and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.current_weight: Numeric value that represents the current weight
+      of the sample, measured  in milligrams.
+    files.metadata_files.state: The current state of the object.
+    annotations.aliquot.concentration: Numeric value that represents the concentration
+      of an analyte or aliquot extracted from the sample or sample portion, measured
+      in milligrams per milliliter.
+    cases.samples.portions.analytes.created_datetime: A combination of date and time
+      of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    files.archive.md5sum: The 128-bit hash value expressed as a 32 digit hexadecimal
+      number used as a file's digital fingerprint.
+    files.annotations.legacy_updated_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.pathology_report_uuid: UUID of the related pathology report.
+    cases.samples.portions.submitter_id: The legacy barcode used before prior to the
+      use UUIDs, varies by project. For TCGA this is bcrportionbarcode.
+    projects.project.dbgap_accession_number: The dbgap accession number for the project.
+    cases.samples.portions.analytes.aliquots.annotations.created_datetime: A combination
+      of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.circumferential_resection_margin: A value in millimeters indicating
+      the measured length between a malignant lesion of the colon or rectum and the
+      nearest radial (or circumferential) border of tissue removed during cancer surgery.
+    files.cases.created_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.diagnoses.lymphatic_invasion_present: A yes/no indicator to ask if small
+      or thin-walled vessel invasion is present, indicating lymphatic involvement
+    cases.samples.portions.center.short_name: Shortened name of the center (e.g. BI).
+    cases.diagnoses.ldh_normal_range_upper: The top value of the range of statistical
+      characteristics that are supposed to represent accepted standard, non-pathological
+      pattern for lactate dehydrogenase (units not specified).
+    cases.diagnoses.vascular_invasion_present: The yes/no indicator to ask if large
+      vessel or venous invasion was detected by surgery or presence in a tumor specimen.
+    annotations.analyte.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    files.archive.revision: The revision of this archive in the DCC.
+    annotations.slide.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    cases.samples.portions.center.code: Numeric code for the center.
+    cases.diagnoses.year_of_diagnosis: Numeric value to represent the year of an individual's
+      initial pathologic diagnosis of cancer.
+    annotations.portion.state: The current state of the object.
+    cases.samples.annotations.classification: Top level classification of the annotation.
+    cases.samples.portions.slides.percent_normal_cells: Numeric value to represent
+      the percentage of normal cell content in a malignant tumor sample or specimen.
+    cases.samples.annotations.creator: Name of the person or entity responsible for
+      the creation of the annotation.
+    annotations.sample.sample_type: Text term to describe the source of a biospecimen
+      used for a laboratory test.
+    cases.diagnoses.treatments.therapeutic_agents: Text identification of the individual
+      agent(s) used as part of a prior treatment regimen.
+    annotations.analyte.submitter_id: The legacy barcode used before prior to the
+      use UUIDs, varies by project. For TCGA this is bcranalytebarcode.
+    annotations.analyte.analyte_volume: The volume in microliters (ml) of the analyte(s)
+      derived from the analyte(s) shipped for sequencing and characterization.
+    annotations.slide.updated_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.slides.annotations.classification: Top level classification
+      of the annotation.
+    cases.samples.portions.center.center_type: Type classification of the center (e.g.
+      CGCC).
+    cases.family_histories.created_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.case.primary_site: Primary site for the project.
+    cases.samples.portions.slides.annotations.project_id: Unique ID for any specific
+      defined piece of work that is undertaken or attempted to meet a single requirement.
+    cases.demographic.gender: 'Text designations that identify gender. Gender is described
+      as the assemblage of properties that distinguish people on the basis of their
+      societal roles. [Explanatory Comment 1: Identification of gender is based upon
+      self-report and may come from a form, questionnaire, interview, etc.]'
+    files.file.file_state: The current state of the data file object.
+    projects.project.name: Display name for the project
+    cases.case.project_id: Unique ID for any specific defined piece of work that is
+      undertaken or attempted to meet a single requirement.
+    cases.files.state_comment: Optional comment about why the file is in the current
+      state, mainly for invalid state.
+    files.archive.state: The current state of the object.
+    cases.diagnoses.treatments.treatment_intent_type: Text term to identify the reason
+      for the administration of a treatment regimen. [Manually-curated]
+    files.annotations.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.annotations.created_datetime: A combination of date and
+      time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.aliquots.project_id: Unique ID for any specific defined piece of
+      work that is undertaken or attempted to meet a single requirement.
+    cases.samples.portions.slides.project_id: Unique ID for any specific defined piece
+      of work that is undertaken or attempted to meet a single requirement.
+    cases.diagnoses.residual_disease: Text terms to describe the status of a tissue
+      margin following surgical resection.
+    cases.samples.portions.analytes.annotations.project_id: Unique ID for any specific
+      defined piece of work that is undertaken or attempted to meet a single requirement.
+    files.archive.data_format: Format of the data files.
+    cases.samples.portions.slides.percent_neutrophil_infiltration: Numeric value to
+      represent the percentage of infiltration by neutrophils in a tumor sample or
+      specimen.
+    annotations.aliquot.analyte_type: Text term that represents the kind of molecular
+      specimen analyte.
+    cases.diagnoses.days_to_death: Time interval from a person's date of death to
+      the date of initial pathologic diagnosis, represented as a calculated number
+      of days.
+    files.file.submitter_id: The file id assigned by the submitter
+    cases.diagnoses.new_event_type: Text term to identify a new tumor event.
+    cases.project.state: The possible states a project can be in.  All but `open`
+      areequivalent to some type of locked state.
+    cases.samples.freezing_method: Text term that represents the method used for freezing
+      the sample.
+    files.annotations.project_id: Unique ID for any specific defined piece of work
+      that is undertaken or attempted to meet a single requirement.
+    files.file.error_type: Type of error for the data file object.
+    annotations.analyte.updated_datetime: A combination of date and time of day in
+      the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.demographic.year_of_birth: Numeric value to represent the calendar year
+      in which an individual was born.
+    annotations.file.created_datetime: A combination of date and time of day in the
+      form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    annotations.slide.percent_tumor_nuclei: Numeric value to represent the percentage
+      of tumor nuclei in a malignant neoplasm sample or specimen.
+    cases.samples.portions.portion_number: Numeric value that represents the sequential
+      number assigned to a portion of the sample.
+    cases.samples.portions.analytes.spectrophotometer_method: Name of the method used
+      to determine the concentration of purified nucleic acid within a solution.
+    files.file.file_size: The size file (object) in bytes
+    cases.samples.portions.slides.percent_tumor_cells: Numeric value that represents
+      the percentage of infiltration by granulocytes in a sample.
+    cases.samples.composition: Text term that represents the cellular composition
+      of the sample.
+    files.archive.created_datetime: A combination of date and time of day in the form
+      [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.files.state: The current state of the object.
+    annotations.analyte.a260_a280_ratio: Numeric value that represents the sample
+      ratio of nucleic acid absorbance at 260 nm and 280 nm, used to determine a measure
+      of DNA purity.
+    cases.samples.portions.created_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.analytes.state: The current state of the object.
+    files.annotations.legacy_created_datetime: A combination of date and time of day
+      in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]
+    cases.samples.portions.state: The current state of the object.
+    cases.samples.portions.analytes.annotations.classification: Top level classification
+      of the annotation.
+    cases.diagnoses.days_to_birth: Time interval from a person's date of birth to
+      the date of initial pathologic diagnosis, represented as a calculated negative
+      number of days.
+    projects.project.intended_release_date: Tracks a Project's intended release date.
+    annotations.aliquot.state: The current state of the object.
+    cases.samples.portions.annotations.project_id: Unique ID for any specific defined
+      piece of work that is undertaken or attempted to meet a single requirement.
+_all:
+  enabled: false
+_source:
+  excludes:
+  - __comment__
+properties:
+  aliquot_ids:
+    type: keyword
+  analyte_ids:
+    type: keyword
+  annotations:
+    type: nested
+    properties:
+      annotation_id:
+        type: keyword
+      case_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      case_submitter_id:
+        type: keyword
+      category:
+        type: keyword
+      classification:
+        type: keyword
+      created_datetime:
+        type: keyword
+      creator:
+        type: keyword
+      entity_id:
+        type: keyword
+      entity_submitter_id:
+        type: keyword
+      entity_type:
+        type: keyword
+      legacy_created_datetime:
+        type: keyword
+      legacy_updated_datetime:
+        type: keyword
+      notes:
+        type: keyword
+      state:
+        type: keyword
+      status:
+        type: keyword
+      submitter_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      updated_datetime:
+        type: keyword
+  case_id:
+    type: text
+    fields:
+      analyzed:
+        type: text
+        analyzer: id_search
+      raw:
+        type: keyword
+        store: true
+      search:
+        type: text
+        analyzer: id_search
+  created_datetime:
+    type: keyword
+  days_to_index:
+    type: long
+  demographic:
+    properties:
+      created_datetime:
+        type: keyword
+      demographic_id:
+        type: keyword
+      ethnicity:
+        type: keyword
+      gender:
+        type: keyword
+      race:
+        type: keyword
+      state:
+        type: keyword
+      submitter_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      updated_datetime:
+        type: keyword
+      year_of_birth:
+        type: long
+      year_of_death:
+        type: long
+  diagnoses:
+    type: nested
+    properties:
+      age_at_diagnosis:
+        type: long
+      ajcc_clinical_m:
+        type: keyword
+      ajcc_clinical_n:
+        type: keyword
+      ajcc_clinical_stage:
+        type: keyword
+      ajcc_clinical_t:
+        type: keyword
+      ajcc_pathologic_m:
+        type: keyword
+      ajcc_pathologic_n:
+        type: keyword
+      ajcc_pathologic_stage:
+        type: keyword
+      ajcc_pathologic_t:
+        type: keyword
+      ann_arbor_b_symptoms:
+        type: keyword
+      ann_arbor_clinical_stage:
+        type: keyword
+      ann_arbor_extranodal_involvement:
+        type: keyword
+      ann_arbor_pathologic_stage:
+        type: keyword
+      burkitt_lymphoma_clinical_variant:
+        type: keyword
+      cause_of_death:
+        type: keyword
+      circumferential_resection_margin:
+        type: long
+      classification_of_tumor:
+        type: keyword
+      colon_polyps_history:
+        type: keyword
+      created_datetime:
+        type: keyword
+      days_to_birth:
+        type: long
+      days_to_death:
+        type: long
+      days_to_hiv_diagnosis:
+        type: long
+      days_to_last_follow_up:
+        type: long
+      days_to_last_known_disease_status:
+        type: long
+      days_to_new_event:
+        type: long
+      days_to_recurrence:
+        type: long
+      diagnosis_id:
+        type: keyword
+      figo_stage:
+        type: keyword
+      hiv_positive:
+        type: keyword
+      hpv_positive_type:
+        type: keyword
+      hpv_status:
+        type: keyword
+      last_known_disease_status:
+        type: keyword
+      laterality:
+        type: keyword
+      ldh_level_at_diagnosis:
+        type: long
+      ldh_normal_range_upper:
+        type: long
+      lymph_nodes_positive:
+        type: long
+      lymphatic_invasion_present:
+        type: keyword
+      method_of_diagnosis:
+        type: keyword
+      morphology:
+        type: keyword
+      new_event_anatomic_site:
+        type: keyword
+      new_event_type:
+        type: keyword
+      perineural_invasion_present:
+        type: keyword
+      primary_diagnosis:
+        type: keyword
+      prior_malignancy:
+        type: keyword
+      prior_treatment:
+        type: keyword
+      progression_or_recurrence:
+        type: keyword
+      residual_disease:
+        type: keyword
+      site_of_resection_or_biopsy:
+        type: keyword
+      state:
+        type: keyword
+      submitter_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      tissue_or_organ_of_origin:
+        type: keyword
+      treatments:
+        type: nested
+        properties:
+          created_datetime:
+            type: keyword
+          days_to_treatment:
+            type: long
+          days_to_treatment_end:
+            type: long
+          days_to_treatment_start:
+            type: long
+          state:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          therapeutic_agents:
+            type: keyword
+          treatment_anatomic_site:
+            type: keyword
+          treatment_id:
+            type: keyword
+          treatment_intent_type:
+            type: keyword
+          treatment_or_therapy:
+            type: keyword
+          treatment_outcome:
+            type: keyword
+          treatment_type:
+            type: keyword
+          updated_datetime:
+            type: keyword
+      tumor_grade:
+        type: keyword
+      tumor_stage:
+        type: keyword
+      updated_datetime:
+        type: keyword
+      vascular_invasion_present:
+        type: keyword
+      vital_status:
+        type: keyword
+      year_of_diagnosis:
+        type: long
+  disease_type:
+    type: text
+    fields:
+      analyzed:
+        type: text
+        analyzer: id_search
+      raw:
+        type: keyword
+        store: true
+      search:
+        type: text
+        analyzer: id_search
+  exposures:
+    type: nested
+    properties:
+      alcohol_history:
+        type: keyword
+      alcohol_intensity:
+        type: keyword
+      bmi:
+        type: long
+      cigarettes_per_day:
+        type: long
+      created_datetime:
+        type: keyword
+      exposure_id:
+        type: keyword
+      height:
+        type: long
+      pack_years_smoked:
+        type: long
+      state:
+        type: keyword
+      submitter_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      tobacco_smoking_onset_year:
+        type: long
+      tobacco_smoking_quit_year:
+        type: long
+      tobacco_smoking_status:
+        type: keyword
+      updated_datetime:
+        type: keyword
+      weight:
+        type: long
+      years_smoked:
+        type: long
+  family_histories:
+    type: nested
+    properties:
+      created_datetime:
+        type: keyword
+      family_history_id:
+        type: keyword
+      relationship_age_at_diagnosis:
+        type: long
+      relationship_gender:
+        type: keyword
+      relationship_primary_diagnosis:
+        type: keyword
+      relationship_type:
+        type: keyword
+      relative_with_cancer_history:
+        type: keyword
+      state:
+        type: keyword
+      submitter_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      updated_datetime:
+        type: keyword
+  files:
+    type: nested
+    properties:
+      access:
+        type: keyword
+      acl:
+        type: keyword
+      analysis:
+        properties:
+          analysis_id:
+            type: keyword
+          analysis_type:
+            type: keyword
+          created_datetime:
+            type: keyword
+          input_files:
+            type: nested
+            properties:
+              access:
+                type: keyword
+              created_datetime:
+                type: keyword
+              data_category:
+                type: keyword
+              data_format:
+                type: keyword
+              data_type:
+                type: keyword
+              error_type:
+                type: keyword
+              experimental_strategy:
+                type: keyword
+              file_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              file_name:
+                type: keyword
+              file_size:
+                type: long
+              file_state:
+                type: keyword
+              md5sum:
+                type: keyword
+              platform:
+                type: keyword
+              revision:
+                type: long
+              state:
+                type: keyword
+              state_comment:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+          metadata:
+            properties:
+              read_groups:
+                type: nested
+                properties:
+                  RIN:
+                    type: long
+                  adapter_name:
+                    type: keyword
+                  adapter_sequence:
+                    type: keyword
+                  base_caller_name:
+                    type: keyword
+                  base_caller_version:
+                    type: keyword
+                  created_datetime:
+                    type: keyword
+                  experiment_name:
+                    type: keyword
+                  flow_cell_barcode:
+                    type: keyword
+                  includes_spike_ins:
+                    type: keyword
+                  instrument_model:
+                    type: keyword
+                  is_paired_end:
+                    type: keyword
+                  library_name:
+                    type: keyword
+                  library_preparation_kit_catalog_number:
+                    type: keyword
+                  library_preparation_kit_name:
+                    type: keyword
+                  library_preparation_kit_vendor:
+                    type: keyword
+                  library_preparation_kit_version:
+                    type: keyword
+                  library_selection:
+                    type: keyword
+                  library_strand:
+                    type: keyword
+                  library_strategy:
+                    type: keyword
+                  platform:
+                    type: keyword
+                  read_group_id:
+                    type: keyword
+                  read_group_name:
+                    type: keyword
+                  read_group_qcs:
+                    type: nested
+                    properties:
+                      adapter_content:
+                        type: keyword
+                      basic_statistics:
+                        type: keyword
+                      created_datetime:
+                        type: keyword
+                      encoding:
+                        type: keyword
+                      fastq_name:
+                        type: keyword
+                      kmer_content:
+                        type: keyword
+                      overrepresented_sequences:
+                        type: keyword
+                      per_base_n_content:
+                        type: keyword
+                      per_base_sequence_content:
+                        type: keyword
+                      per_base_sequence_quality:
+                        type: keyword
+                      per_sequence_gc_content:
+                        type: keyword
+                      per_sequence_quality_score:
+                        type: keyword
+                      per_tile_sequence_quality:
+                        type: keyword
+                      percent_gc_content:
+                        type: long
+                      read_group_qc_id:
+                        type: keyword
+                      sequence_duplication_levels:
+                        type: keyword
+                      sequence_length_distribution:
+                        type: keyword
+                      state:
+                        type: keyword
+                      submitter_id:
+                        type: text
+                        fields:
+                          analyzed:
+                            type: text
+                            analyzer: id_search
+                          raw:
+                            type: keyword
+                            store: true
+                          search:
+                            type: text
+                            analyzer: id_search
+                      total_sequences:
+                        type: long
+                      updated_datetime:
+                        type: keyword
+                      workflow_end_datetime:
+                        type: keyword
+                      workflow_link:
+                        type: keyword
+                      workflow_start_datetime:
+                        type: keyword
+                      workflow_type:
+                        type: keyword
+                      workflow_version:
+                        type: keyword
+                  read_length:
+                    type: long
+                  sequencing_center:
+                    type: keyword
+                  sequencing_date:
+                    type: keyword
+                  size_selection_range:
+                    type: keyword
+                  spike_ins_concentration:
+                    type: keyword
+                  spike_ins_fasta:
+                    type: keyword
+                  state:
+                    type: keyword
+                  submitter_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  target_capture_kit_catalog_number:
+                    type: keyword
+                  target_capture_kit_name:
+                    type: keyword
+                  target_capture_kit_target_region:
+                    type: keyword
+                  target_capture_kit_vendor:
+                    type: keyword
+                  target_capture_kit_version:
+                    type: keyword
+                  to_trim_adapter_sequence:
+                    type: keyword
+                  updated_datetime:
+                    type: keyword
+          state:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          updated_datetime:
+            type: keyword
+          workflow_end_datetime:
+            type: keyword
+          workflow_link:
+            type: keyword
+          workflow_start_datetime:
+            type: keyword
+          workflow_type:
+            type: keyword
+          workflow_version:
+            type: keyword
+      archive:
+        properties:
+          archive_id:
+            type: keyword
+          created_datetime:
+            type: keyword
+          data_category:
+            type: keyword
+          data_format:
+            type: keyword
+          data_type:
+            type: keyword
+          error_type:
+            type: keyword
+          file_name:
+            type: keyword
+          file_size:
+            type: long
+          file_state:
+            type: keyword
+          md5sum:
+            type: keyword
+          revision:
+            type: long
+          state:
+            type: keyword
+          state_comment:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          updated_datetime:
+            type: keyword
+      cases:
+        type: nested
+        properties:
+          aliquot_ids:
+            type: keyword
+          analyte_ids:
+            type: keyword
+          annotations:
+            type: nested
+            properties:
+              annotation_id:
+                type: keyword
+              case_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              case_submitter_id:
+                type: keyword
+              category:
+                type: keyword
+              classification:
+                type: keyword
+              created_datetime:
+                type: keyword
+              creator:
+                type: keyword
+              entity_id:
+                type: keyword
+              entity_submitter_id:
+                type: keyword
+              entity_type:
+                type: keyword
+              legacy_created_datetime:
+                type: keyword
+              legacy_updated_datetime:
+                type: keyword
+              notes:
+                type: keyword
+              state:
+                type: keyword
+              status:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+          case_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          created_datetime:
+            type: keyword
+          days_to_index:
+            type: long
+          demographic:
+            properties:
+              created_datetime:
+                type: keyword
+              demographic_id:
+                type: keyword
+              ethnicity:
+                type: keyword
+              gender:
+                type: keyword
+              race:
+                type: keyword
+              state:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+              year_of_birth:
+                type: long
+              year_of_death:
+                type: long
+          diagnoses:
+            type: nested
+            properties:
+              age_at_diagnosis:
+                type: long
+              ajcc_clinical_m:
+                type: keyword
+              ajcc_clinical_n:
+                type: keyword
+              ajcc_clinical_stage:
+                type: keyword
+              ajcc_clinical_t:
+                type: keyword
+              ajcc_pathologic_m:
+                type: keyword
+              ajcc_pathologic_n:
+                type: keyword
+              ajcc_pathologic_stage:
+                type: keyword
+              ajcc_pathologic_t:
+                type: keyword
+              ann_arbor_b_symptoms:
+                type: keyword
+              ann_arbor_clinical_stage:
+                type: keyword
+              ann_arbor_extranodal_involvement:
+                type: keyword
+              ann_arbor_pathologic_stage:
+                type: keyword
+              burkitt_lymphoma_clinical_variant:
+                type: keyword
+              cause_of_death:
+                type: keyword
+              circumferential_resection_margin:
+                type: long
+              classification_of_tumor:
+                type: keyword
+              colon_polyps_history:
+                type: keyword
+              created_datetime:
+                type: keyword
+              days_to_birth:
+                type: long
+              days_to_death:
+                type: long
+              days_to_hiv_diagnosis:
+                type: long
+              days_to_last_follow_up:
+                type: long
+              days_to_last_known_disease_status:
+                type: long
+              days_to_new_event:
+                type: long
+              days_to_recurrence:
+                type: long
+              diagnosis_id:
+                type: keyword
+              figo_stage:
+                type: keyword
+              hiv_positive:
+                type: keyword
+              hpv_positive_type:
+                type: keyword
+              hpv_status:
+                type: keyword
+              last_known_disease_status:
+                type: keyword
+              laterality:
+                type: keyword
+              ldh_level_at_diagnosis:
+                type: long
+              ldh_normal_range_upper:
+                type: long
+              lymph_nodes_positive:
+                type: long
+              lymphatic_invasion_present:
+                type: keyword
+              method_of_diagnosis:
+                type: keyword
+              morphology:
+                type: keyword
+              new_event_anatomic_site:
+                type: keyword
+              new_event_type:
+                type: keyword
+              perineural_invasion_present:
+                type: keyword
+              primary_diagnosis:
+                type: keyword
+              prior_malignancy:
+                type: keyword
+              prior_treatment:
+                type: keyword
+              progression_or_recurrence:
+                type: keyword
+              residual_disease:
+                type: keyword
+              site_of_resection_or_biopsy:
+                type: keyword
+              state:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              tissue_or_organ_of_origin:
+                type: keyword
+              treatments:
+                type: nested
+                properties:
+                  created_datetime:
+                    type: keyword
+                  days_to_treatment:
+                    type: long
+                  days_to_treatment_end:
+                    type: long
+                  days_to_treatment_start:
+                    type: long
+                  state:
+                    type: keyword
+                  submitter_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  therapeutic_agents:
+                    type: keyword
+                  treatment_anatomic_site:
+                    type: keyword
+                  treatment_id:
+                    type: keyword
+                  treatment_intent_type:
+                    type: keyword
+                  treatment_or_therapy:
+                    type: keyword
+                  treatment_outcome:
+                    type: keyword
+                  treatment_type:
+                    type: keyword
+                  updated_datetime:
+                    type: keyword
+              tumor_grade:
+                type: keyword
+              tumor_stage:
+                type: keyword
+              updated_datetime:
+                type: keyword
+              vascular_invasion_present:
+                type: keyword
+              vital_status:
+                type: keyword
+              year_of_diagnosis:
+                type: long
+          disease_type:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          exposures:
+            type: nested
+            properties:
+              alcohol_history:
+                type: keyword
+              alcohol_intensity:
+                type: keyword
+              bmi:
+                type: long
+              cigarettes_per_day:
+                type: long
+              created_datetime:
+                type: keyword
+              exposure_id:
+                type: keyword
+              height:
+                type: long
+              pack_years_smoked:
+                type: long
+              state:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              tobacco_smoking_onset_year:
+                type: long
+              tobacco_smoking_quit_year:
+                type: long
+              tobacco_smoking_status:
+                type: keyword
+              updated_datetime:
+                type: keyword
+              weight:
+                type: long
+              years_smoked:
+                type: long
+          family_histories:
+            type: nested
+            properties:
+              created_datetime:
+                type: keyword
+              family_history_id:
+                type: keyword
+              relationship_age_at_diagnosis:
+                type: long
+              relationship_gender:
+                type: keyword
+              relationship_primary_diagnosis:
+                type: keyword
+              relationship_type:
+                type: keyword
+              relative_with_cancer_history:
+                type: keyword
+              state:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+          files:
+            type: nested
+            properties:
+              created_datetime:
+                type: keyword
+              error_type:
+                type: keyword
+              file_id:
+                type: keyword
+              file_name:
+                type: keyword
+              file_size:
+                type: long
+              file_state:
+                type: keyword
+              md5sum:
+                type: keyword
+              state:
+                type: keyword
+              state_comment:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+          portion_ids:
+            type: keyword
+          primary_site:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          project:
+            properties:
+              dbgap_accession_number:
+                type: keyword
+              disease_type:
+                type: keyword
+              intended_release_date:
+                type: keyword
+              name:
+                type: keyword
+              primary_site:
+                type: keyword
+              program:
+                properties:
+                  dbgap_accession_number:
+                    type: keyword
+                  name:
+                    type: keyword
+                  program_id:
+                    type: keyword
+              project_id:
+                type: keyword
+              releasable:
+                type: keyword
+              released:
+                type: keyword
+              state:
+                type: keyword
+          sample_ids:
+            type: keyword
+          samples:
+            type: nested
+            properties:
+              annotations:
+                type: nested
+                properties:
+                  annotation_id:
+                    type: keyword
+                  case_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  case_submitter_id:
+                    type: keyword
+                  category:
+                    type: keyword
+                  classification:
+                    type: keyword
+                  created_datetime:
+                    type: keyword
+                  creator:
+                    type: keyword
+                  entity_id:
+                    type: keyword
+                  entity_submitter_id:
+                    type: keyword
+                  entity_type:
+                    type: keyword
+                  legacy_created_datetime:
+                    type: keyword
+                  legacy_updated_datetime:
+                    type: keyword
+                  notes:
+                    type: keyword
+                  state:
+                    type: keyword
+                  status:
+                    type: keyword
+                  submitter_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  updated_datetime:
+                    type: keyword
+              biospecimen_anatomic_site:
+                type: keyword
+              composition:
+                type: keyword
+              created_datetime:
+                type: keyword
+              current_weight:
+                type: long
+              days_to_collection:
+                type: long
+              days_to_sample_procurement:
+                type: long
+              diagnosis_pathologically_confirmed:
+                type: keyword
+              freezing_method:
+                type: keyword
+              initial_weight:
+                type: long
+              intermediate_dimension:
+                type: keyword
+              is_ffpe:
+                type: keyword
+              longest_dimension:
+                type: keyword
+              method_of_sample_procurement:
+                type: keyword
+              oct_embedded:
+                type: keyword
+              pathology_report_uuid:
+                type: keyword
+              portions:
+                type: nested
+                properties:
+                  analytes:
+                    type: nested
+                    properties:
+                      a260_a280_ratio:
+                        type: long
+                      aliquots:
+                        type: nested
+                        properties:
+                          aliquot_id:
+                            type: keyword
+                          aliquot_quantity:
+                            type: long
+                          aliquot_volume:
+                            type: long
+                          amount:
+                            type: long
+                          analyte_type:
+                            type: keyword
+                          analyte_type_id:
+                            type: keyword
+                          annotations:
+                            type: nested
+                            properties:
+                              annotation_id:
+                                type: keyword
+                              case_id:
+                                type: text
+                                fields:
+                                  analyzed:
+                                    type: text
+                                    analyzer: id_search
+                                  raw:
+                                    type: keyword
+                                    store: true
+                                  search:
+                                    type: text
+                                    analyzer: id_search
+                              case_submitter_id:
+                                type: keyword
+                              category:
+                                type: keyword
+                              classification:
+                                type: keyword
+                              created_datetime:
+                                type: keyword
+                              creator:
+                                type: keyword
+                              entity_id:
+                                type: keyword
+                              entity_submitter_id:
+                                type: keyword
+                              entity_type:
+                                type: keyword
+                              legacy_created_datetime:
+                                type: keyword
+                              legacy_updated_datetime:
+                                type: keyword
+                              notes:
+                                type: keyword
+                              state:
+                                type: keyword
+                              status:
+                                type: keyword
+                              submitter_id:
+                                type: text
+                                fields:
+                                  analyzed:
+                                    type: text
+                                    analyzer: id_search
+                                  raw:
+                                    type: keyword
+                                    store: true
+                                  search:
+                                    type: text
+                                    analyzer: id_search
+                              updated_datetime:
+                                type: keyword
+                          center:
+                            properties:
+                              center_id:
+                                type: keyword
+                              center_type:
+                                type: keyword
+                              code:
+                                type: keyword
+                              name:
+                                type: keyword
+                              namespace:
+                                type: keyword
+                              short_name:
+                                type: keyword
+                          concentration:
+                            type: long
+                          created_datetime:
+                            type: keyword
+                          source_center:
+                            type: keyword
+                          state:
+                            type: keyword
+                          submitter_id:
+                            type: text
+                            fields:
+                              analyzed:
+                                type: text
+                                analyzer: id_search
+                              raw:
+                                type: keyword
+                                store: true
+                              search:
+                                type: text
+                                analyzer: id_search
+                          updated_datetime:
+                            type: keyword
+                      amount:
+                        type: long
+                      analyte_id:
+                        type: keyword
+                      analyte_quantity:
+                        type: long
+                      analyte_type:
+                        type: keyword
+                      analyte_type_id:
+                        type: keyword
+                      analyte_volume:
+                        type: long
+                      annotations:
+                        type: nested
+                        properties:
+                          annotation_id:
+                            type: keyword
+                          case_id:
+                            type: text
+                            fields:
+                              analyzed:
+                                type: text
+                                analyzer: id_search
+                              raw:
+                                type: keyword
+                                store: true
+                              search:
+                                type: text
+                                analyzer: id_search
+                          case_submitter_id:
+                            type: keyword
+                          category:
+                            type: keyword
+                          classification:
+                            type: keyword
+                          created_datetime:
+                            type: keyword
+                          creator:
+                            type: keyword
+                          entity_id:
+                            type: keyword
+                          entity_submitter_id:
+                            type: keyword
+                          entity_type:
+                            type: keyword
+                          legacy_created_datetime:
+                            type: keyword
+                          legacy_updated_datetime:
+                            type: keyword
+                          notes:
+                            type: keyword
+                          state:
+                            type: keyword
+                          status:
+                            type: keyword
+                          submitter_id:
+                            type: text
+                            fields:
+                              analyzed:
+                                type: text
+                                analyzer: id_search
+                              raw:
+                                type: keyword
+                                store: true
+                              search:
+                                type: text
+                                analyzer: id_search
+                          updated_datetime:
+                            type: keyword
+                      concentration:
+                        type: long
+                      created_datetime:
+                        type: keyword
+                      normal_tumor_genotype_snp_match:
+                        type: keyword
+                      ribosomal_rna_28s_16s_ratio:
+                        type: long
+                      spectrophotometer_method:
+                        type: keyword
+                      state:
+                        type: keyword
+                      submitter_id:
+                        type: text
+                        fields:
+                          analyzed:
+                            type: text
+                            analyzer: id_search
+                          raw:
+                            type: keyword
+                            store: true
+                          search:
+                            type: text
+                            analyzer: id_search
+                      updated_datetime:
+                        type: keyword
+                      well_number:
+                        type: keyword
+                  annotations:
+                    type: nested
+                    properties:
+                      annotation_id:
+                        type: keyword
+                      case_id:
+                        type: text
+                        fields:
+                          analyzed:
+                            type: text
+                            analyzer: id_search
+                          raw:
+                            type: keyword
+                            store: true
+                          search:
+                            type: text
+                            analyzer: id_search
+                      case_submitter_id:
+                        type: keyword
+                      category:
+                        type: keyword
+                      classification:
+                        type: keyword
+                      created_datetime:
+                        type: keyword
+                      creator:
+                        type: keyword
+                      entity_id:
+                        type: keyword
+                      entity_submitter_id:
+                        type: keyword
+                      entity_type:
+                        type: keyword
+                      legacy_created_datetime:
+                        type: keyword
+                      legacy_updated_datetime:
+                        type: keyword
+                      notes:
+                        type: keyword
+                      state:
+                        type: keyword
+                      status:
+                        type: keyword
+                      submitter_id:
+                        type: text
+                        fields:
+                          analyzed:
+                            type: text
+                            analyzer: id_search
+                          raw:
+                            type: keyword
+                            store: true
+                          search:
+                            type: text
+                            analyzer: id_search
+                      updated_datetime:
+                        type: keyword
+                  center:
+                    properties:
+                      center_id:
+                        type: keyword
+                      center_type:
+                        type: keyword
+                      code:
+                        type: keyword
+                      name:
+                        type: keyword
+                      namespace:
+                        type: keyword
+                      short_name:
+                        type: keyword
+                  created_datetime:
+                    type: keyword
+                  creation_datetime:
+                    type: long
+                  is_ffpe:
+                    type: keyword
+                  portion_id:
+                    type: keyword
+                  portion_number:
+                    type: keyword
+                  slides:
+                    type: nested
+                    properties:
+                      annotations:
+                        type: nested
+                        properties:
+                          annotation_id:
+                            type: keyword
+                          case_id:
+                            type: text
+                            fields:
+                              analyzed:
+                                type: text
+                                analyzer: id_search
+                              raw:
+                                type: keyword
+                                store: true
+                              search:
+                                type: text
+                                analyzer: id_search
+                          case_submitter_id:
+                            type: keyword
+                          category:
+                            type: keyword
+                          classification:
+                            type: keyword
+                          created_datetime:
+                            type: keyword
+                          creator:
+                            type: keyword
+                          entity_id:
+                            type: keyword
+                          entity_submitter_id:
+                            type: keyword
+                          entity_type:
+                            type: keyword
+                          legacy_created_datetime:
+                            type: keyword
+                          legacy_updated_datetime:
+                            type: keyword
+                          notes:
+                            type: keyword
+                          state:
+                            type: keyword
+                          status:
+                            type: keyword
+                          submitter_id:
+                            type: text
+                            fields:
+                              analyzed:
+                                type: text
+                                analyzer: id_search
+                              raw:
+                                type: keyword
+                                store: true
+                              search:
+                                type: text
+                                analyzer: id_search
+                          updated_datetime:
+                            type: keyword
+                      created_datetime:
+                        type: keyword
+                      number_proliferating_cells:
+                        type: long
+                      percent_eosinophil_infiltration:
+                        type: long
+                      percent_granulocyte_infiltration:
+                        type: long
+                      percent_inflam_infiltration:
+                        type: long
+                      percent_lymphocyte_infiltration:
+                        type: long
+                      percent_monocyte_infiltration:
+                        type: long
+                      percent_necrosis:
+                        type: long
+                      percent_neutrophil_infiltration:
+                        type: long
+                      percent_normal_cells:
+                        type: long
+                      percent_stromal_cells:
+                        type: long
+                      percent_tumor_cells:
+                        type: long
+                      percent_tumor_nuclei:
+                        type: long
+                      section_location:
+                        type: keyword
+                      slide_id:
+                        type: keyword
+                      state:
+                        type: keyword
+                      submitter_id:
+                        type: text
+                        fields:
+                          analyzed:
+                            type: text
+                            analyzer: id_search
+                          raw:
+                            type: keyword
+                            store: true
+                          search:
+                            type: text
+                            analyzer: id_search
+                      updated_datetime:
+                        type: keyword
+                  state:
+                    type: keyword
+                  submitter_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  updated_datetime:
+                    type: keyword
+                  weight:
+                    type: long
+              preservation_method:
+                type: keyword
+              sample_id:
+                type: keyword
+              sample_type:
+                type: keyword
+              sample_type_id:
+                type: keyword
+              shortest_dimension:
+                type: keyword
+              state:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              time_between_clamping_and_freezing:
+                type: keyword
+              time_between_excision_and_freezing:
+                type: keyword
+              tissue_type:
+                type: keyword
+              tumor_code:
+                type: keyword
+              tumor_code_id:
+                type: keyword
+              tumor_descriptor:
+                type: keyword
+              updated_datetime:
+                type: keyword
+          slide_ids:
+            type: keyword
+          state:
+            type: keyword
+          submitter_aliquot_ids:
+            type: keyword
+          submitter_analyte_ids:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          submitter_portion_ids:
+            type: keyword
+          submitter_sample_ids:
+            type: keyword
+          submitter_slide_ids:
+            type: keyword
+          summary:
+            properties:
+              data_categories:
+                type: nested
+                properties:
+                  data_category:
+                    type: keyword
+                  file_count:
+                    type: long
+              experimental_strategies:
+                type: nested
+                properties:
+                  experimental_strategy:
+                    type: keyword
+                  file_count:
+                    type: long
+              file_count:
+                type: long
+              file_size:
+                type: long
+          tissue_source_site:
+            properties:
+              bcr_id:
+                type: keyword
+              code:
+                type: keyword
+              name:
+                type: keyword
+              project:
+                type: keyword
+              tissue_source_site_id:
+                type: keyword
+          updated_datetime:
+            type: keyword
+      center:
+        properties:
+          center_id:
+            type: keyword
+          center_type:
+            type: keyword
+          code:
+            type: keyword
+          name:
+            type: keyword
+          namespace:
+            type: keyword
+          short_name:
+            type: keyword
+      created_datetime:
+        type: keyword
+      data_category:
+        type: keyword
+      data_format:
+        type: keyword
+      data_type:
+        type: keyword
+      downstream_analyses:
+        type: nested
+        properties:
+          analysis_id:
+            type: keyword
+          analysis_type:
+            type: keyword
+          created_datetime:
+            type: keyword
+          output_files:
+            type: nested
+            properties:
+              access:
+                type: keyword
+              created_datetime:
+                type: keyword
+              data_category:
+                type: keyword
+              data_format:
+                type: keyword
+              data_type:
+                type: keyword
+              error_type:
+                type: keyword
+              experimental_strategy:
+                type: keyword
+              file_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              file_name:
+                type: keyword
+              file_size:
+                type: long
+              file_state:
+                type: keyword
+              md5sum:
+                type: keyword
+              platform:
+                type: keyword
+              revision:
+                type: long
+              state:
+                type: keyword
+              state_comment:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+          state:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          updated_datetime:
+            type: keyword
+          workflow_end_datetime:
+            type: keyword
+          workflow_link:
+            type: keyword
+          workflow_start_datetime:
+            type: keyword
+          workflow_type:
+            type: keyword
+          workflow_version:
+            type: keyword
+      error_type:
+        type: keyword
+      experimental_strategy:
+        type: keyword
+      file_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      file_name:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      file_size:
+        type: long
+      file_state:
+        type: keyword
+      index_files:
+        type: nested
+        properties:
+          access:
+            type: keyword
+          created_datetime:
+            type: keyword
+          data_category:
+            type: keyword
+          data_format:
+            type: keyword
+          data_type:
+            type: keyword
+          error_type:
+            type: keyword
+          experimental_strategy:
+            type: keyword
+          file_id:
+            type: keyword
+          file_name:
+            type: keyword
+          file_size:
+            type: long
+          file_state:
+            type: keyword
+          md5sum:
+            type: keyword
+          platform:
+            type: keyword
+          revision:
+            type: long
+          state:
+            type: keyword
+          state_comment:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          updated_datetime:
+            type: keyword
+      md5sum:
+        type: keyword
+      metadata_files:
+        type: nested
+        properties:
+          access:
+            type: keyword
+          created_datetime:
+            type: keyword
+          data_category:
+            type: keyword
+          data_format:
+            type: keyword
+          data_type:
+            type: keyword
+          error_type:
+            type: keyword
+          file_id:
+            type: keyword
+          file_name:
+            type: keyword
+          file_size:
+            type: long
+          file_state:
+            type: keyword
+          md5sum:
+            type: keyword
+          state:
+            type: keyword
+          state_comment:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          type:
+            type: keyword
+          updated_datetime:
+            type: keyword
+      origin:
+        type: keyword
+      platform:
+        type: keyword
+      revision:
+        type: long
+      state:
+        type: keyword
+      state_comment:
+        type: keyword
+      submitter_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      tags:
+        type: keyword
+      type:
+        type: keyword
+      updated_datetime:
+        type: keyword
+  portion_ids:
+    type: keyword
+  primary_site:
+    type: text
+    fields:
+      analyzed:
+        type: text
+        analyzer: id_search
+      raw:
+        type: keyword
+        store: true
+      search:
+        type: text
+        analyzer: id_search
+  project:
+    properties:
+      dbgap_accession_number:
+        type: keyword
+      disease_type:
+        type: keyword
+      intended_release_date:
+        type: keyword
+      name:
+        type: keyword
+      primary_site:
+        type: keyword
+      program:
+        properties:
+          dbgap_accession_number:
+            type: keyword
+          name:
+            type: keyword
+          program_id:
+            type: keyword
+      project_id:
+        type: keyword
+      releasable:
+        type: keyword
+      released:
+        type: keyword
+      state:
+        type: keyword
+  sample_ids:
+    type: keyword
+  samples:
+    type: nested
+    properties:
+      annotations:
+        type: nested
+        properties:
+          annotation_id:
+            type: keyword
+          case_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          case_submitter_id:
+            type: keyword
+          category:
+            type: keyword
+          classification:
+            type: keyword
+          created_datetime:
+            type: keyword
+          creator:
+            type: keyword
+          entity_id:
+            type: keyword
+          entity_submitter_id:
+            type: keyword
+          entity_type:
+            type: keyword
+          legacy_created_datetime:
+            type: keyword
+          legacy_updated_datetime:
+            type: keyword
+          notes:
+            type: keyword
+          state:
+            type: keyword
+          status:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          updated_datetime:
+            type: keyword
+      biospecimen_anatomic_site:
+        type: keyword
+      composition:
+        type: keyword
+      created_datetime:
+        type: keyword
+      current_weight:
+        type: long
+      days_to_collection:
+        type: long
+      days_to_sample_procurement:
+        type: long
+      diagnosis_pathologically_confirmed:
+        type: keyword
+      freezing_method:
+        type: keyword
+      initial_weight:
+        type: long
+      intermediate_dimension:
+        type: keyword
+      is_ffpe:
+        type: keyword
+      longest_dimension:
+        type: keyword
+      method_of_sample_procurement:
+        type: keyword
+      oct_embedded:
+        type: keyword
+      pathology_report_uuid:
+        type: keyword
+      portions:
+        type: nested
+        properties:
+          analytes:
+            type: nested
+            properties:
+              a260_a280_ratio:
+                type: long
+              aliquots:
+                type: nested
+                properties:
+                  aliquot_id:
+                    type: keyword
+                  aliquot_quantity:
+                    type: long
+                  aliquot_volume:
+                    type: long
+                  amount:
+                    type: long
+                  analyte_type:
+                    type: keyword
+                  analyte_type_id:
+                    type: keyword
+                  annotations:
+                    type: nested
+                    properties:
+                      annotation_id:
+                        type: keyword
+                      case_id:
+                        type: text
+                        fields:
+                          analyzed:
+                            type: text
+                            analyzer: id_search
+                          raw:
+                            type: keyword
+                            store: true
+                          search:
+                            type: text
+                            analyzer: id_search
+                      case_submitter_id:
+                        type: keyword
+                      category:
+                        type: keyword
+                      classification:
+                        type: keyword
+                      created_datetime:
+                        type: keyword
+                      creator:
+                        type: keyword
+                      entity_id:
+                        type: keyword
+                      entity_submitter_id:
+                        type: keyword
+                      entity_type:
+                        type: keyword
+                      legacy_created_datetime:
+                        type: keyword
+                      legacy_updated_datetime:
+                        type: keyword
+                      notes:
+                        type: keyword
+                      state:
+                        type: keyword
+                      status:
+                        type: keyword
+                      submitter_id:
+                        type: text
+                        fields:
+                          analyzed:
+                            type: text
+                            analyzer: id_search
+                          raw:
+                            type: keyword
+                            store: true
+                          search:
+                            type: text
+                            analyzer: id_search
+                      updated_datetime:
+                        type: keyword
+                  center:
+                    properties:
+                      center_id:
+                        type: keyword
+                      center_type:
+                        type: keyword
+                      code:
+                        type: keyword
+                      name:
+                        type: keyword
+                      namespace:
+                        type: keyword
+                      short_name:
+                        type: keyword
+                  concentration:
+                    type: long
+                  created_datetime:
+                    type: keyword
+                  source_center:
+                    type: keyword
+                  state:
+                    type: keyword
+                  submitter_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  updated_datetime:
+                    type: keyword
+              amount:
+                type: long
+              analyte_id:
+                type: keyword
+              analyte_quantity:
+                type: long
+              analyte_type:
+                type: keyword
+              analyte_type_id:
+                type: keyword
+              analyte_volume:
+                type: long
+              annotations:
+                type: nested
+                properties:
+                  annotation_id:
+                    type: keyword
+                  case_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  case_submitter_id:
+                    type: keyword
+                  category:
+                    type: keyword
+                  classification:
+                    type: keyword
+                  created_datetime:
+                    type: keyword
+                  creator:
+                    type: keyword
+                  entity_id:
+                    type: keyword
+                  entity_submitter_id:
+                    type: keyword
+                  entity_type:
+                    type: keyword
+                  legacy_created_datetime:
+                    type: keyword
+                  legacy_updated_datetime:
+                    type: keyword
+                  notes:
+                    type: keyword
+                  state:
+                    type: keyword
+                  status:
+                    type: keyword
+                  submitter_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  updated_datetime:
+                    type: keyword
+              concentration:
+                type: long
+              created_datetime:
+                type: keyword
+              normal_tumor_genotype_snp_match:
+                type: keyword
+              ribosomal_rna_28s_16s_ratio:
+                type: long
+              spectrophotometer_method:
+                type: keyword
+              state:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+              well_number:
+                type: keyword
+          annotations:
+            type: nested
+            properties:
+              annotation_id:
+                type: keyword
+              case_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              case_submitter_id:
+                type: keyword
+              category:
+                type: keyword
+              classification:
+                type: keyword
+              created_datetime:
+                type: keyword
+              creator:
+                type: keyword
+              entity_id:
+                type: keyword
+              entity_submitter_id:
+                type: keyword
+              entity_type:
+                type: keyword
+              legacy_created_datetime:
+                type: keyword
+              legacy_updated_datetime:
+                type: keyword
+              notes:
+                type: keyword
+              state:
+                type: keyword
+              status:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+          center:
+            properties:
+              center_id:
+                type: keyword
+              center_type:
+                type: keyword
+              code:
+                type: keyword
+              name:
+                type: keyword
+              namespace:
+                type: keyword
+              short_name:
+                type: keyword
+          created_datetime:
+            type: keyword
+          creation_datetime:
+            type: long
+          is_ffpe:
+            type: keyword
+          portion_id:
+            type: keyword
+          portion_number:
+            type: keyword
+          slides:
+            type: nested
+            properties:
+              annotations:
+                type: nested
+                properties:
+                  annotation_id:
+                    type: keyword
+                  case_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  case_submitter_id:
+                    type: keyword
+                  category:
+                    type: keyword
+                  classification:
+                    type: keyword
+                  created_datetime:
+                    type: keyword
+                  creator:
+                    type: keyword
+                  entity_id:
+                    type: keyword
+                  entity_submitter_id:
+                    type: keyword
+                  entity_type:
+                    type: keyword
+                  legacy_created_datetime:
+                    type: keyword
+                  legacy_updated_datetime:
+                    type: keyword
+                  notes:
+                    type: keyword
+                  state:
+                    type: keyword
+                  status:
+                    type: keyword
+                  submitter_id:
+                    type: text
+                    fields:
+                      analyzed:
+                        type: text
+                        analyzer: id_search
+                      raw:
+                        type: keyword
+                        store: true
+                      search:
+                        type: text
+                        analyzer: id_search
+                  updated_datetime:
+                    type: keyword
+              created_datetime:
+                type: keyword
+              number_proliferating_cells:
+                type: long
+              percent_eosinophil_infiltration:
+                type: long
+              percent_granulocyte_infiltration:
+                type: long
+              percent_inflam_infiltration:
+                type: long
+              percent_lymphocyte_infiltration:
+                type: long
+              percent_monocyte_infiltration:
+                type: long
+              percent_necrosis:
+                type: long
+              percent_neutrophil_infiltration:
+                type: long
+              percent_normal_cells:
+                type: long
+              percent_stromal_cells:
+                type: long
+              percent_tumor_cells:
+                type: long
+              percent_tumor_nuclei:
+                type: long
+              section_location:
+                type: keyword
+              slide_id:
+                type: keyword
+              state:
+                type: keyword
+              submitter_id:
+                type: text
+                fields:
+                  analyzed:
+                    type: text
+                    analyzer: id_search
+                  raw:
+                    type: keyword
+                    store: true
+                  search:
+                    type: text
+                    analyzer: id_search
+              updated_datetime:
+                type: keyword
+          state:
+            type: keyword
+          submitter_id:
+            type: text
+            fields:
+              analyzed:
+                type: text
+                analyzer: id_search
+              raw:
+                type: keyword
+                store: true
+              search:
+                type: text
+                analyzer: id_search
+          updated_datetime:
+            type: keyword
+          weight:
+            type: long
+      preservation_method:
+        type: keyword
+      sample_id:
+        type: keyword
+      sample_type:
+        type: keyword
+      sample_type_id:
+        type: keyword
+      shortest_dimension:
+        type: keyword
+      state:
+        type: keyword
+      submitter_id:
+        type: text
+        fields:
+          analyzed:
+            type: text
+            analyzer: id_search
+          raw:
+            type: keyword
+            store: true
+          search:
+            type: text
+            analyzer: id_search
+      time_between_clamping_and_freezing:
+        type: keyword
+      time_between_excision_and_freezing:
+        type: keyword
+      tissue_type:
+        type: keyword
+      tumor_code:
+        type: keyword
+      tumor_code_id:
+        type: keyword
+      tumor_descriptor:
+        type: keyword
+      updated_datetime:
+        type: keyword
+  slide_ids:
+    type: keyword
+  state:
+    type: keyword
+  submitter_aliquot_ids:
+    type: keyword
+  submitter_analyte_ids:
+    type: keyword
+  submitter_id:
+    type: text
+    fields:
+      analyzed:
+        type: text
+        analyzer: id_search
+      raw:
+        type: keyword
+        store: true
+      search:
+        type: text
+        analyzer: id_search
+  submitter_portion_ids:
+    type: keyword
+  submitter_sample_ids:
+    type: keyword
+  submitter_slide_ids:
+    type: keyword
+  summary:
+    properties:
+      data_categories:
+        type: nested
+        properties:
+          data_category:
+            type: keyword
+          file_count:
+            type: long
+      experimental_strategies:
+        type: nested
+        properties:
+          experimental_strategy:
+            type: keyword
+          file_count:
+            type: long
+      file_count:
+        type: long
+      file_size:
+        type: long
+  tissue_source_site:
+    properties:
+      bcr_id:
+        type: keyword
+      code:
+        type: keyword
+      name:
+        type: keyword
+      project:
+        type: keyword
+      tissue_source_site_id:
+        type: keyword
+  updated_datetime:
+    type: keyword
