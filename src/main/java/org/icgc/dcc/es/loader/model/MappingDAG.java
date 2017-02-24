@@ -19,6 +19,7 @@
 package org.icgc.dcc.es.loader.model;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.google.common.collect.Table;
 import static java.lang.String.format;
 import lombok.Data;
 import lombok.Getter;
@@ -26,7 +27,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.val;
 
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
@@ -38,7 +38,7 @@ import java.util.function.Predicate;
 public class MappingDAG {
 
   @Getter
-  private final Map<String, TypeMapping> roots;
+  private final Table<String, String, TypeMapping> roots;
 
   /**
    * Find root type mapping based on a given type mapping
@@ -46,8 +46,7 @@ public class MappingDAG {
    * @return returns TypeMapping object that is the root of the parent-child relationship.
    */
   public TypeMapping getRoot(String typeName) {
-    for (val root : roots.entrySet()) {
-      val mapping = root.getValue();
+    for (val mapping : roots.values()) {
       val found = mapping.applyRecursive((TypeMapping m) -> m.getTypeName().equals(typeName));
       if (found) {
         return mapping;
