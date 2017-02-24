@@ -34,9 +34,11 @@ Usage: <main class> [options]
        Config directory which contains mappings and settings.
   *     --es-uri
        Elasticsearch URI to index to.
-        --index-name-prefix
-       When scaning through contents of the input directory, process only files
+        --file-prefix
+       When scanning through contents of the input directory, process only files
        that start with the prefix
+        --index-name-prefix
+       Create index with the following prefix
   *     --input-dir
        Input directory which contains documents to load.
         --skip-init
