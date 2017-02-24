@@ -27,13 +27,12 @@ import java.io.File;
 @Slf4j
 public class SettingsServiceTest {
 
-  private final String path = "src/test/resources/fixtures/mappings";
-
   @Test
   public void testIndexMap() {
+    val path = "src/test/resources/fixtures/mappings";
     val service = new SettingsService(new File(path));
     val map = service.readSettings();
-    map.entrySet().forEach(e -> log.info("Settings file read: {}", e.getKey()));
+    map.forEach((k,v) -> log.info("Settings file read: {}", k));
   }
 
 }

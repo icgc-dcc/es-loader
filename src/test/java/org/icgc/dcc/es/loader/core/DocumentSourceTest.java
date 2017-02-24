@@ -30,7 +30,7 @@ public class DocumentSourceTest {
   private static final String INDEX_NAME = "gdc-r1-gene";
   private static final File INPUT_DIR = new File("src/test/resources/fixtures/input");
 
-  DocumentSource documentSource = new DocumentSource(INPUT_DIR);
+  private DocumentSource documentSource = new DocumentSource(INPUT_DIR);
 
   @Test
   public void testGetIndexNames() throws Exception {

@@ -34,7 +34,7 @@ public class MappingDAGServiceTest {
   @Test
   public void testDAG() {
     val service = new MappingDAGService(new File(path));
-    val graph = service.readMappings();
+    service.readMappings();
   }
 
   @Test

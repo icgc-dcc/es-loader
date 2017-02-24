@@ -29,7 +29,7 @@ public class IndexTypeDocumentsIteratorTest {
   private static final String INDEX_TYPE_NAME = "case-ssm-child";
   private static final File INPUT_DIR = new File("src/test/resources/fixtures/input/gdc-r1-gene/" + INDEX_TYPE_NAME);
 
-  IndexTypeDocumentsIterator documentsIterator = new IndexTypeDocumentsIterator(INPUT_DIR);
+  private IndexTypeDocumentsIterator documentsIterator = new IndexTypeDocumentsIterator(INPUT_DIR);
 
   @Test
   public void testHasNext() throws Exception {

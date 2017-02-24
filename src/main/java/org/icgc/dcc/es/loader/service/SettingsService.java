@@ -53,13 +53,11 @@ public class SettingsService {
   public Map<String, JsonNode> readSettings() {
     val files = Files.list(Paths.get(configDir.getAbsolutePath()));
 
-    val settingsMap = files
+    return files
         .map(Path::toUri)
         .map(File::new)
         .filter(this::isSettingsFile)
         .collect(toImmutableMap(this::indexNameFromFile, this::readYaml));
-
-    return settingsMap;
   }
 
   private boolean isSettingsFile(File file) {
