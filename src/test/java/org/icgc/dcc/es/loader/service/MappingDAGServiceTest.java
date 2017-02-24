@@ -34,7 +34,8 @@ public class MappingDAGServiceTest {
   @Test
   public void testDAG() {
     val service = new MappingDAGService(new File(path));
-    service.readMappings();
+    val mappings = service.readMappings();
+    assertThat(mappings != null);
   }
 
   @Test
@@ -43,7 +44,9 @@ public class MappingDAGServiceTest {
     val graph = service.readMappings();
 
     val caseMapping = graph.getRoot("case");
-    caseMapping.applyRecursive((TypeMapping m) -> log.info(m.getTypeName()));
+    val output = new StringBuilder();
+    caseMapping.applyRecursive((TypeMapping m) -> output.append(m.getTypeName()));
+    assertThat(output.toString().equals("file_childgene_ssm_childcase"));
   }
 
   @Test
@@ -52,10 +55,7 @@ public class MappingDAGServiceTest {
     val graph = service.readMappings();
 
     val caseMapping = graph.getRoot("case");
-    assertThat(caseMapping.applyRecursive((TypeMapping m) -> {
-      log.info(m.getTypeName());
-      return m.getTypeName().equals("file_child");
-    }));
+    assertThat(caseMapping.applyRecursive((TypeMapping m) -> m.getTypeName().equals("file_child")));
   }
 
 }
