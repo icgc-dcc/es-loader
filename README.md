@@ -48,4 +48,4 @@ Usage: <main class> [options]
        Default: false
 ```
 
-`--es-uri`, `--configdir`, and `--input-dir` are mandatory. The other ones are optional.
+`--es-uri`, `--config-dir`, and `--input-dir` are mandatory. The other ones are optional.
